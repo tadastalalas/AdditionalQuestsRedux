@@ -1,0 +1,61 @@
+﻿AQ v1.5.7.0 :
+- Added support for game version 1.5.7. Game versions 1.4.8 and 1.4.7 are still supported.
+- Mod Configuration Menu (MCM) is no longer required.
+	Without MCM, change the settings in Modules\AdditionalQuestsRedux\ModConfiguration.xml.
+- Replaced the options "Show debug messages" and "Write debug log file" with "Logging for debugging" (off by default).
+	The log file is in Modules\AdditionalQuestsRedux\logs. Nothing is shown on screen anymore.
+
+AQ v1.4.1 :
+- Changed Harmony required version back to 2.4.2.
+
+AQ v1.4.0 :
+- Added the Long Distance Caravan quest.
+- Added the Fund the Walls quest.
+- Added the Donate Elite Rangers quest.
+- Added console commands for the new quests.
+
+AQ v1.3.0 :
+- Updated for Bannerlord 1.4.8.
+- Renamed the mod to Additional Quests Redux.
+	Delete the old Modules\AdditionalQuests folder before installing.
+- MCM is now required.
+- MCM settings were reset to defaults once.
+- Quest on/off settings now work without reloading.
+- Added the option "Show debug messages" (off by default).
+- Added translations for 12 languages.
+- Existing saves keep working.
+- Fixed a crash when a Bandit Army quest ran out of time.
+- Fixed a crash when a Militia Spears quest ran out of time.
+- Fixed quests sometimes finishing twice.
+- Fixed relation with the quest giver changing twice.
+- Fixed Militia Spears and Starving Town changing how often other quests appear.
+- Fixed the Bandit Army quest cancelling itself when the bandits started their raid.
+- Fixed the Bandit Army quest failing when the raid was driven off.
+	It now fails only if the village is looted.
+- Fixed Bandit Army troops. The bandits now match their hideout's culture.
+- The Bandit Army quest now cancels if someone else destroys the bandits.
+- The Bandit Army quest is no longer offered for raided villages.
+- Taking supplies or recruits by force from the quest village now fails the Bandit Army quest.
+- Fixed Militia Spears paying far too little.
+- Fixed Starving Town counting only some food. All grain, fish and meat now count.
+- Fixed Starving Town taking more food than needed.
+- Fixed the quest log not updating item counts.
+- Fixed rewards going to the wrong settlement.
+- Fixed the gold icon and typos in quest texts.
+- Added console commands that start each quest, for testing (cheats must be on).
+- The launcher and MCM menu now show the name "Additional Quests Redux".
+- Renamed the MCM section "General" to "Technical".
+- Added the option "Write debug log file" (off by default).
+	The mod no longer writes a log file unless this option is on.
+- Added compatibility with Governors Handle Issues.
+	Governors can now resolve Bandit Army, Militia Spears and Starving Town.
+	Governors skip quests that are turned off in this mod's MCM settings.
+	Players still never get a "send a companion" option for these quests.
+	With debug messages on, the log says whether Governors Handle Issues was found and patched.
+- AI lords who resolve these quests now get the same gold, renown and relation a player would get for them.
+	The village or town also gets the same benefits as when the player completes the quest.
+- Added the option "AI lords get quest rewards" (on by default).
+- Added Bannerlord.Harmony as a required mod.
+- AI lords who resolve vanilla quests now get rewards.
+	They get the quest's gold reward, some renown and better relation with the quest giver; the quest giver gains power.
+- Added the option "AI lords get vanilla quest rewards" (on by default).

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Used only when Mod Configuration Menu (MCM) is not installed. With MCM, change the settings in the game menu instead. -->
+<ModConfiguration>
+    <Quests>
+        <!-- AI lords get the gold, renown and relation a player would get from these quests. -->
+        <AiLordRewardsEnabled>true</AiLordRewardsEnabled>
+        <!-- AI lords get rewards from vanilla quests too. -->
+        <VanillaAiLordRewardsEnabled>true</VanillaAiLordRewardsEnabled>
+    </Quests>
+    <BanditArmy>
+        <Enabled>true</Enabled>
+        <!-- true removes the minimum of 50 troops needed to start the quest. -->
+        <MinTroopReqDisabled>false</MinTroopReqDisabled>
+        <!-- Bandit army size: 1.0 = 100%. Allowed 0.5 to 5.0. -->
+        <SizeMultiplier>1</SizeMultiplier>
+    </BanditArmy>
+    <MilitiaSpears>
+        <Enabled>true</Enabled>
+    </MilitiaSpears>
+    <StarvingTown>
+        <Enabled>true</Enabled>
+    </StarvingTown>
+    <LongDistanceCaravan>
+        <Enabled>true</Enabled>
+    </LongDistanceCaravan>
+    <FundTheWalls>
+        <Enabled>true</Enabled>
+    </FundTheWalls>
+    <DonateEliteRangers>
+        <Enabled>true</Enabled>
+    </DonateEliteRangers>
+    <TechnicalSettings>
+        <!-- Writes details to the logs folder of this mod. -->
+        <LoggingEnabled>false</LoggingEnabled>
+    </TechnicalSettings>
+</ModConfiguration>

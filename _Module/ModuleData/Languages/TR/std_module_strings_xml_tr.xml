@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+	<tags>
+		<tag language="Türkçe" />
+	</tags>
+	<strings>
+		<!-- MCM settings -->
+		<string id="AQ_Rw7pL2x" text="Görevler" />
+		<string id="AQ_b8NfQ4m" text="Haydut Ordusu" />
+		<string id="AQ_Hq5vD1s" text="Milis Mızrakları" />
+		<string id="AQ_y2GcX7k" text="Açlık Çeken Kasaba" />
+		<string id="AQ_ShuaUUm" text="Uzun Yol Kervanı" />
+		<string id="AQ_7wmctzL" text="Surları Finanse Et" />
+		<string id="AQ_dR9kq2V" text="Seçkin Okçu Bağışla" />
+		<string id="AQ_tWD2HrQ" text="Teknik ayarlar" />
+		<string id="AQ_Pm4tZ8w" text="Görev Etkin" />
+		<string id="AQ_k3Tz9Qe" text="Ek Görevler Redux" />
+		<string id="AQ_e9JrB3n" text="Köy ileri gelenlerinin Haydut Ordusu görevini sunmasını sağlar. Önceden sunulmuş veya kabul edilmiş görevler etkilenmez. [Varsayılan: etkin]" />
+		<string id="AQ_V6hW1yd" text="Asgari asker şartını kaldır" />
+		<string id="AQ_s3KxM5q" text="Haydut Ordusu görevine başlamak için gereken en az 50 asker şartını kaldırır. [Varsayılan: devre dışı]" />
+		<string id="AQ_C7uN2fa" text="Haydut Ordusu Boyutu" />
+		<string id="AQ_j4QbT9r" text="Haydut ordusu birliğinin boyutunu değiştirir. Değişiklikten sonra ortaya çıkan haydut ordularına uygulanır. [Varsayılan: %100]" />
+		<string id="AQ_Lz8eY3p" text="Köy ileri gelenlerinin Milis Mızrakları görevini sunmasını sağlar. Önceden sunulmuş veya kabul edilmiş görevler etkilenmez. [Varsayılan: etkin]" />
+		<string id="AQ_f1XdR6v" text="Kasaba tüccarlarının Açlık Çeken Kasaba görevini sunmasını sağlar. Önceden sunulmuş veya kabul edilmiş görevler etkilenmez. [Varsayılan: etkin]" />
+		<string id="AQ_kdH4PaP" text="Kasaba tüccarlarının Uzun Yol Kervanı görevini sunmasını sağlar. Önceden sunulmuş veya kabul edilmiş görevler etkilenmez. [Varsayılan: etkin]" />
+		<string id="AQ_Rp85ntf" text="Lordların kasabaları ve kaleleri için Surları Finanse Et görevini sunmasını sağlar. Önceden sunulmuş veya kabul edilmiş görevler etkilenmez. [Varsayılan: etkin]" />
+		<string id="AQ_Tr4nGrs" text="Lordların kasabaları ve kaleleri için Seçkin Okçu Bağışla görevini sunmasını sağlar. Önceden sunulmuş veya kabul edilmiş görevler etkilenmez. [Varsayılan: etkin]" />
+		<string id="AQ_N5gRw2c" text="Hata ayıklama için günlük kaydı" />
+		<string id="AQ_u8LmK4d" text="Hata ayıklama için günlük kaydı (yalnızca İngilizce). [Varsayılan: devre dışı]" />
+		<string id="AQ_Xk4mT9b" text="Yapay zekâ lordları görev ödülü alır" />
+		<string id="AQ_q7RzW2n" text="Bir yapay zekâ lordu bu görevlerden birini çözdüğünde, oyuncunun alacağı altını, ünü ve ilişkiyi alır; köy veya kasaba da aynı faydaları elde eder. [Varsayılan: etkin]" />
+		<string id="AQ_Vd3nH8s" text="Yapay zekâ lordları temel oyun görevlerinin ödülünü alır" />
+		<string id="AQ_g6PwK1z" text="Bir yapay zekâ lordu temel oyundaki bir görevi çözdüğünde görevin altın ödülünü, biraz ün ve görev verenle daha iyi ilişki kazanır; görev veren de güç kazanır. [Varsayılan: etkin]" />
+		<!-- Shared by several quests -->
+		<string id="AQGenericCancelWarLog" text="Klanınız artık {ISSUE_GIVER.LINK} kişisinin efendisiyle savaşta. {ISSUE_GIVER.LINK} ile olan anlaşmanız iptal edildi." />
+		<string id="AQGenericCancelRaidLog" text="{SETTLEMENT_NAME} başka biri tarafından yağmalandı. {ISSUE_GIVER.LINK} ile olan anlaşmanız iptal edildi." />
+		<!-- Bandit Army -->
+		<string id="AQBATitle" text="Bir Haydut Ordusu {ISSUE_SETTLEMENT} Yolunda!" />
+		<string id="AQBADescription" text="Bir haydut ordusu yağma için {ISSUE_SETTLEMENT} yolunda. {ISSUE_SETTLEMENT} halkının kendini savunmak için yardıma ihtiyacı var." />
+		<string id="AQBAIssueBrief" text="Bana korkunç haberler ulaştı; gözcülerim, kendini haydut &quot;kralı&quot; ilan etmiş birinin önderliğindeki bir ayaktakımı ordusunun şu anda köyümüze doğru geldiğini, elimizdeki her şeyi almaya niyetli olduğunu söylüyor. Soylularımıza yardım için haber gönderdim ama buraya vardıklarında çok geç olacağından korkuyorum." />
+		<string id="AQBAIssueAccept" text="Bu endişe verici bir haber. Kendinizi nasıl savunacaksınız?" />
+		<string id="AQBAIssueSolution" text="Milislerimiz evlerimiz için savaşacak ama ne kadar çok olursak o kadar iyi. Düşmanın çoğu ayaktakımı olacak, kolay para peşindeki yağmacılar; ama aralarında daha iyi eğitilmiş haydutlar da bulunacak. Köyü savunmamıza yardım edecek misiniz?" />
+		<string id="AQBAIssueSolutionAccept" text="Evet, köyü savunmanıza yardım edeceğim." />
+		<string id="AQBARumor" text="Bir haydut ordusunun şu anda buraya doğru geldiğini duydum! Kaçmalıyız, ya da saklanmalıyız ya da... burada kalmak dışında ne olursa! Lütfen, bize yardım etmelisiniz!" />
+		<string id="AQBAQuestAcceptLog" text="{QUEST_SETTLEMENT} köyü, yakındaki bir sığınaktan gelen bir haydut ordusu tarafından yağmalanmak üzere! {QUEST_GIVER.LINK}, haydutların köyü harap etmesini engellemenizi istedi.{newline}{newline}Haydutların {QUEST_SETTLEMENT} köyüne ulaşmasını engelleyin." />
+		<string id="AQBABanditRaidingLog" text="Haydut ordusu {QUEST_SETTLEMENT} köyünü yağmalıyor! Köylüleri koruyun!" />
+		<string id="AQBASuccessLog" text="{QUEST_SETTLEMENT} köyünü yağmalamaya giden haydut ordusunu yendiniz. Köylüler size çok minnettar. Köyü yöneten grup, köyü savunduğunuz için size ödül verdi." />
+		<string id="AQBAFailureLog" text="Haydut ordusunu durduramadınız. Haydutlar {QUEST_SETTLEMENT} köyünü harap edip gittiler." />
+		<string id="AQBATimeoutLog" text="Haydut ordusunu yenmeniz çok uzun sürdü. Neyse ki {QUEST_SETTLEMENT} köyünü yöneten soylular zamanında müdahale edebildi. Anlaşmanız iptal edildi." />
+		<string id="AQ_T07dYvH" text="{QUEST_SETTLEMENT} yolundaki haydut ordusu başka biri tarafından yok edildi. {QUEST_GIVER.LINK} ile olan anlaşmanız iptal edildi." />
+		<string id="AQBAOfferDialog" text="Teşekkür ederim. Haydutlar yakındaki bir sığınaktan geliyor. Gözcülerim size yerini gösterecek. Başarınız için dua edeceğiz." />
+		<string id="AQBADiscussDialogStart" text="Artık fazla gecikeceklerini sanmıyorum. Umarım onları zamanında durdurabilirsiniz." />
+		<string id="AQBADiscussDialogTalk" text="Merak etmeyin, onların &quot;ordusunu&quot; ezeceğiz." />
+		<string id="AQBADiscussDialogFinish" text="Güzel, güzel. Tekrar teşekkürler." />
+		<string id="AQBABanditConfront" text="Sen de kimsin be? Burası bir ordu, bir köye biraz &quot;vergi&quot; toplamaya gidiyoruz. Kendi iyiliğini istiyorsan yolumuzdan çekil!" />
+		<string id="AQBABanditConfrontResponse" text="Buralarda daha uzun süre yağma yapamayacaksınız, sizi durdurmaya geldik!" />
+		<string id="AQBADirection" text="Haydutlara Giden Yön" />
+		<string id="AQBABanditHideoutMarked" text="{QUEST_GIVER.NAME} haydut sığınağını işaretledi. Haydut ordusu oradan köye doğru yola çıkacak." />
+		<string id="AQBABanditArmyName" text="{BANDIT_CULTURE} Ordusu" />
+		<!-- Militia Spears -->
+		<string id="AQMSTitle" text="{ISSUE_SETTLEMENT} Milisleri İçin Mızrak Gerekiyor" />
+		<string id="AQMSDescription" text="{ISSUE_SETTLEMENT} muhtarının milisler için mızraklara ihtiyacı var." />
+		<string id="AQMSIssueBrief" text="Şu anda köyün milislerini örgütlüyorum ama eğitim ve savaş için silahımız yok. Özellikle cephanelikte çok az mızrağımız var." />
+		<string id="AQMSIssueAccept" text="Nasıl yardım edebilirim?" />
+		<string id="AQMSIssueSolution" text="Halkımı milis olarak eğitmeyi ben hallederim ama savaşmak için mızrak bulacak birine ihtiyacım var. Onları çevredeki kasabalardan satın alabilirsiniz. İyi bir demirciyseniz kendiniz bile yapabilirsiniz. Toplamda {SPEARS_AMOUNT} mızrağa ihtiyacımız olacak. Mızraklar için size {REWARD_AMOUNT}{GOLD_ICON} ödeyeceğim." />
+		<string id="AQMSIssueSolutionAccept" text="İhtiyacınız olan mızrakları bulacağım." />
+		<string id="AQMSRumor" text="Köyün gençlerinin hepsi yeni kurulan milislere yazıldı. Ama duydum ki {QUEST_GIVER.NAME} adamların yarısına bile yetecek kadar mızrağa sahip değilmiş, bu yüzden tahta sopalarla eğitim yapıyorlar. Umarım gerçek bir savaşta da aynı sopaları kullanmak zorunda kalmazlar!" />
+		<string id="AQMSQuestAcceptLog" text="{QUEST_SETTLEMENT} muhtarı {QUEST_GIVER.LINK}, köy milisleri için kendisine {SPEARS_AMOUNT} mızrak teslim etmenizi istedi. Bu, köydeki savaşabilir milis sayısını artırmaya yardımcı olacak.{newline}{newline}Ona en kısa sürede {SPEARS_AMOUNT} mızrak getirmeyi kabul ettiniz. Mızraklar için size {REWARD_AMOUNT}{GOLD_ICON} ödenecek.{newline}{newline}Mızraklar tek elle kullanılan saplı silahlar olmalı." />
+		<string id="AQMSHasSpearsLog" text="Artık görevi tamamlamak için yeterli mızrağınız var. Teslim etmek için {QUEST_SETTLEMENT} köyüne dönün." />
+		<string id="AQMSHaveSpearsLog" text="Görevi tamamlamak için yeterli mızrağınız var. Teslim etmek için {QUEST_SETTLEMENT} köyüne dönün." />
+		<string id="AQMSTimeoutLog" text="Köylülere {SPEARS_AMOUNT} mızrak teslim edemediniz. Milislerini düzgün eğitemeyecekler. Muhtar hayal kırıklığına uğradı." />
+		<string id="AQMSSuccessLog" text="Köylülere {SPEARS_AMOUNT} mızrak teslim ettiniz. Milisleri eğitime ve köyü savunmaya hazır. Muhtar ve köylüler minnettar." />
+		<string id="AQMSThankYouDialog" text="Teşekkürler, {?PLAYER.GENDER}hanımım{?}efendim{\?}! Bu mızrakları iyi kullanacağız." />
+		<string id="AQMSWaitingDialog" text="O mızrakları bekliyoruz, {?PLAYER.GENDER}hanımım{?}efendim{\?}." />
+		<string id="AQMSDiscussDialog" text="{SPEARS_AMOUNT} mızrak getirdiniz mi?" />
+		<string id="AQMSHandOverDialog" text="Evet. İşte buradalar." />
+		<string id="AQMSNotYetDialog" text="Üzerinde çalışıyorum." />
+		<string id="AQMSNotEnoughSpears" text="Yeterli mızrağınız yok." />
+		<string id="AQMSQuestObjective" text="Tek elle kullanılan saplı silahlar toplayın" />
+		<!-- Starving Town -->
+		<string id="AQSTitle" text="{ISSUE_SETTLEMENT} Kasabasında Gıda Krizi" />
+		<string id="AQSTDescription" text="{SETTLEMENT} kasabası açlık çekiyor; {MERCHANT_NAME}, kasabanın gıda stoklarını yenilemek için yardıma ihtiyaç duyuyor." />
+		<string id="AQSTIssueBrief" text="Yiyecek durumu kötü, kasaba açlık çekiyor. Şehre gelen tüm yiyecekleri karneye bağlamak zorunda kaldık ama her geçen gün insanların önüne yemek koymak daha da zorlaşıyor. Bu daha uzun sürerse ya hepimiz açlıktan öleceğiz ya da halk ayaklanacak." />
+		<string id="AQSTIssueAccept" text="Yardım edebilir miyim? Fazladan biraz yiyeceğim var." />
+		<string id="AQSTIssueSolution" text="Nezaketiniz için teşekkür ederim ama şehri yeniden doldurmak için çok daha fazla yiyeceğe ihtiyacımız olacak; kıtlığın kaynağını çözene kadar bizi idare edecek kadar. Tahıl, et ve balık sağlayabilirseniz her biri için ortalama fiyatın üç katını ödeyeceğim. Kasabanın erzakını sağlamak için toplamda en az {FOOD_AMOUNT} birim yiyeceğe ihtiyacımız olacak." />
+		<string id="AQSTIssueSolutionAccept" text="Kasaba için yiyecek bulmaya çıkacağım." />
+		<string id="AQSTRumor" text="Çok açım... ah, pardon, size mi çarptım? Son zamanlar çok zor geçiyor... Ne zamandır bir şey yemedim... Keşke biri {QUEST_GIVER.NAME} kişisine kasabaya daha fazla yiyecek getirmesinde yardım edebilse..." />
+		<string id="AQSTQuestAcceptLog" text="{QUEST_SETTLEMENT} kasabasındaki tüccar {QUEST_GIVER.LINK}, mevcut gıda krizini hafifletmek için kasabaya {FOOD_AMOUNT} birim yiyecek teslim etmenizi istedi. Yiyecek tahıl, et ya da balık olabilir.{newline}{newline}Teslimatta her malın ortalama fiyatının üç katı size ödenecek." />
+		<string id="AQSTHasFoodLog" text="Artık görevi tamamlamak için yeterli yiyeceğiniz var. Teslim etmek için {QUEST_SETTLEMENT} kasabasına dönün." />
+		<string id="AQSTHaveFoodLog" text="Görevi tamamlamak için yeterli yiyeceğiniz var. Teslim etmek için {QUEST_SETTLEMENT} kasabasına dönün." />
+		<string id="AQSTTimeoutLog" text="{QUEST_SETTLEMENT} kasabasına {FOOD_AMOUNT} birim yiyecek teslim edemediniz. Halk açlık çekmeye devam ediyor ve {QUEST_GIVER.LINK} hayal kırıklığına uğradı." />
+		<string id="AQSTSuccessLog" text="{QUEST_SETTLEMENT} kasabasına {FOOD_AMOUNT} birim yiyecek teslim ettiniz. Halk yiyeceklerin gelişiyle sevinç içinde. Halkı açlıktan kurtardınız." />
+		<string id="AQSTThankYouDialog" text="Teşekkürler, {?PLAYER.GENDER}hanımım{?}efendim{\?}! Bu yiyecekler hepimize yardımcı olacak." />
+		<string id="AQSTWaitingDialog" text="Yiyecek erzakını bekliyoruz, {?PLAYER.GENDER}hanımım{?}efendim{\?}." />
+		<string id="AQSTDiscussDialog" text="{FOOD_AMOUNT} birim yiyecek getirdiniz mi?" />
+		<string id="AQSTHandOverDialog" text="Evet. İşte burada." />
+		<string id="AQSTNotYetDialog" text="Üzerinde çalışıyorum." />
+		<string id="AQSTNotEnoughFood" text="Yeterli yiyeceğiniz yok." />
+		<string id="AQSTQuestObjective" text="Tahıl/Balık/Et toplayın." />
+		<string id="AQSTGaveFoodMeat" text="{FOOD_AMOUNT} birim et verdiniz. Karşılığında {GOLD_AMOUNT}{GOLD_ICON} aldınız." />
+		<string id="AQSTGaveFoodFish" text="{FOOD_AMOUNT} birim balık verdiniz. Karşılığında {GOLD_AMOUNT}{GOLD_ICON} aldınız." />
+		<string id="AQSTGaveFoodGrain" text="{FOOD_AMOUNT} birim tahıl verdiniz. Karşılığında {GOLD_AMOUNT}{GOLD_ICON} aldınız." />
+		<!-- Long Distance Caravan -->
+		<string id="AQ_Y9tybDT" text="Uzun Yol Kervanı: {DESTINATION}" />
+		<string id="AQ_XX5gNZk" text="{ORIGIN} tüccarı {QUEST_GIVER.NAME}, ağır yüklü bir kervanı uzaklardaki {DESTINATION} kasabasına gönderiyor ve yol boyunca güçlü bir muhafıza ihtiyacı var." />
+		<string id="AQ_wVcaPYi" text="Buradaki pazarlar, {DESTINATION} kasabasında servet değerinde satılan mallarla dolu. Birikimimin çoğunu büyük bir kervana yatırıyorum, ama yol uzun ve bu kadar zengin bir kervan yol boyunca bütün haydutları üstüne çeker." />
+		<string id="AQ_XZWCGX2" text="Uzun bir yol güçlü bir muhafız ister. Ne öneriyorsunuz?" />
+		<string id="AQ_vhXhJyN" text="Kervanımla birlikte {DESTINATION} kasabasına kadar gidin. Kervan yol üstündeki kasabalarda dinlenmek için duracak. Onu gözden kaybetmeyin ve sağ salim koruyun. Mallar satılınca kârın yarısını size vereceğim. En az {TROOP_COUNT} adam getirin, yol tehlikeli." />
+		<string id="AQ_ExQRvbj" text="Adamlarım hazır. Arabaları yükleyin." />
+		<string id="AQ_pEEJxX2" text="Dediklerine göre {QUEST_GIVER.NAME}, koca bir servet değerinde malı {DESTINATION} kasabasına göndermek istiyor. Haydutları uzak tutabilecek biri çıkarsa dâhice, çıkmazsa delilik." />
+		<string id="AQ_pHy3hjk" text="{ORIGIN} tüccarı {QUEST_GIVER.LINK}, uzaklardaki {DESTINATION} kasabası için bir kervana {CARGO_VALUE}{GOLD_ICON} değerinde mal yükledi. Kervanı yol boyunca korumayı kabul ettiniz. Mallar satılınca kârın yarısı size verilecek." />
+		<string id="AQ_2aFLWP3" text="{QUEST_GIVER.LINK} adlı tüccarın kervanı {DESTINATION} kasabasına ulaştı ve malları {EARNED}{GOLD_ICON} karşılığında sattı. Yolculuk {PROFIT}{GOLD_ICON} kâr getirdi ve sizin payınız {SHARE}{GOLD_ICON}." />
+		<string id="AQ_7DkphCy" text="{OLD_DESTINATION} kasabasına artık güvenle ulaşılamıyor. Kervan bunun yerine {DESTINATION} kasabasına gidiyor." />
+		<string id="AQ_dgTZCFa" text="{QUEST_GIVER.LINK} adlı tüccarın kervanının mallarını güvenle satabileceği hiçbir kasaba kalmadı. Tüccar kervanı geri çağırdı ve anlaşmanızı iptal etti." />
+		<!-- Fund the Walls -->
+		<string id="AQ_h9vC8AC" text="{SETTLEMENT} Surlarını Finanse Et" />
+		<string id="AQ_IVFYrru" text="{QUEST_GIVER.NAME}, {SETTLEMENT} içindeki inşaat işlerinin hızlanmasını istiyor, ancak hazinede yeterli para yok." />
+		<string id="AQ_0Mffnlm" text="{SETTLEMENT} içindeki inşaatçılar çok yavaş çalışıyor. Hazinemdeki her dinar sahadaki adamlarıma gidiyor ve duvarcılar vaatlerle çalışmaz." />
+		<string id="AQ_2LPPl97" text="Belki yardım edebilirim. Neye ihtiyacınız var?" />
+		<string id="AQ_B4pZqEB" text="{AMOUNT}{GOLD_ICON} parayı alın ve {SETTLEMENT} içindeki kâhyama teslim edin. Bu parayla işler çok daha hızlı ilerler. Böyle bir cömertliği unutmam." />
+		<string id="AQ_Z8hQlbU" text="{AMOUNT}{GOLD_ICON} parayı {SETTLEMENT} içindeki kâhyaya götüreceğim." />
+		<string id="AQ_XulpSCr" text="Teşekkür ederim. {SETTLEMENT} içindeki kâhyam sizi bekliyor olacak." />
+		<string id="AQ_wez8WeZ" text="Para {SETTLEMENT} içindeki kâhyaya ulaştı mı?" />
+		<string id="AQ_rmmM5jw" text="Henüz değil. Yoldayım." />
+		<string id="AQ_1t9xD52" text="{SETTLEMENT} {?QUEST_GIVER.GENDER}hanımı{?}lordu{\?} {QUEST_GIVER.LINK}, oradaki inşaat işlerini finanse etmenizi istedi. {SETTLEMENT} içindeki kâhyaya {AMOUNT}{GOLD_ICON} teslim edin." />
+		<string id="AQ_gwZpb5w" text="İnşaat işleri için {AMOUNT}{GOLD_ICON} teslim et" />
+		<string id="AQ_sJC2SY2" text="{SETTLEMENT} kâhyasına {AMOUNT}{GOLD_ICON} teslim ettiniz. İnşaat işleri artık daha hızlı ilerleyecek." />
+		<string id="AQ_XUmYvlU" text="Parayı zamanında {SETTLEMENT} içindeki kâhyaya ulaştıramadınız. {QUEST_GIVER.LINK} hayal kırıklığına uğradı." />
+		<!-- Donate Elite Rangers -->
+		<string id="AQ_Lk2rP9d" text="{SETTLEMENT} İçin Seçkin Okçular" />
+		<string id="AQ_Wf6bT1x" text="{QUEST_GIVER.NAME}, {SETTLEMENT} surlarını korumak için {COUNT} {TROOP} askeri istiyor." />
+		<string id="AQ_Zm8cY4h" text="{SETTLEMENT} surları, ancak ardındaki yaylar kadar güçlüdür. Garnizonumun av yayı taşıyan köylü çocuklarına değil, gerçek nişancılara ihtiyacı var ve böyle adamları yetiştirmek bende olmayan yıllar alır." />
+		<string id="AQ_Pj3vN6s" text="Nasıl adamlara ihtiyacınız var?" />
+		<string id="AQ_Gx5tK8m" text="{COUNT} {TROOP} askerini {SETTLEMENT} garnizonuna teslim edin. Onlar için size {REWARD}{GOLD_ICON} ödeyeceğim; bu, eğitimlerinin size maliyetinden fazladır." />
+		<string id="AQ_Rb1yQ7w" text="{COUNT} {TROOP} askerini {SETTLEMENT} garnizonuna getireceğim." />
+		<string id="AQ_Uf2mB8q" text="Güzel. {SETTLEMENT} garnizon komutanı onları kabul edecek." />
+		<string id="AQ_Ia7sD5r" text="{TROOP} askerlerini {SETTLEMENT} garnizonuna getirdiniz mi?" />
+		<string id="AQ_Oq3nF9k" text="Henüz değil. Böyle adamlar her köyde bulunmaz." />
+		<string id="AQ_Cs9dL2f" text="{SETTLEMENT} {?QUEST_GIVER.GENDER}hanımı{?}lordu{\?} {QUEST_GIVER.LINK}, oradaki garnizona {COUNT} {TROOP} askeri getirmenizi istedi. Teslim ettiğinizde size {REWARD}{GOLD_ICON} ödeyecek." />
+		<string id="AQ_Hv3mR8t" text="Garnizona {COUNT} {TROOP} askeri teslim et" />
+		<string id="AQ_Ye4hV7n" text="{SETTLEMENT} garnizonuna {COUNT} {TROOP} askeri bıraktınız." />
+		<string id="AQ_Kw6pX3j" text="Askerleri zamanında {SETTLEMENT} garnizonuna ulaştıramadınız. {QUEST_GIVER.LINK} hayal kırıklığına uğradı." />
+		<string id="AQ_Nq7wE2c" text="Grubunuzda {COUNT} sağlıklı {TROOP} askeri olmalı." />
+	</strings>
+</base>

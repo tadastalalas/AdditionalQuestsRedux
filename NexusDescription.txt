@@ -1,0 +1,133 @@
+[center][size=4][color=#93c47d]Six new quests[/color] for villages, towns and castles, with [color=#93c47d]real rewards[/color] and [color=#93c47d]real effects[/color] on the world.[/size]
+[size=4]AI lords who solve quests now [color=#93c47d]get paid like the player[/color], for vanilla quests too.[/size]
+[i][color=#93c47d]Continuation of the original [/color][url=https://www.nexusmods.com/mountandblade2bannerlord/mods/3066]Additional Quests[/url][color=#93c47d].[/color][/i]
+
+[color=#93c47d][size=3]Supported game versions: 1.5.7, 1.4.8, 1.4.7.[/size][/color][/center]
+[color=#ffff00][size=4]Quests[/size][/color]
+
+[color=#ffd966]Bandit Army Heading to Village![/color]
+[i]Who asks:[/i] a village notable whose village has an infested bandit hideout nearby.
+[i]The job:[/i] a bandit army leaves the hideout and marches on the village. Defeat it before it loots the place. You have [color=#93c47d]10 days[/color].
+[i]The enemy:[/i] about half looters, half bandits matching the hideout's culture (sea raiders, forest bandits...). The army grows with your [color=#93c47d]clan tier[/color].
+[i]You need:[/i] clan tier 1 and 50 troops.
+[color=#93c47d]Rewards:[/color] [color=#93c47d]3000 gold[/color], +5 renown, +20 relation with the quest giver, +10 with every other notable in the village.
+[color=#93c47d]Village:[/color] +100 hearth, the quest giver gains power.
+[color=#e06666]Failure:[/color] if the village is looted: -10 relation, the quest giver loses power. Taking supplies or recruits from the village by force also fails the quest.
+[color=#999999]Cancelled if someone else destroys the bandits, another party raids the village, or war breaks out.[/color]
+
+[color=#ffd966]Village Needs Spears for Militia[/color]
+[i]Who asks:[/i] a village notable in a village with fewer than 20 militia.
+[i]The job:[/i] bring [color=#93c47d]20 one-handed polearms[/color] to the village. You have [color=#93c47d]14 days[/color].
+[color=#93c47d]Rewards:[/color] [color=#93c47d]500 gold + the market value of 20 spears[/color], +10 relation with the quest giver, Mercy and Generosity trait XP.
+[color=#93c47d]Village:[/color] +20 militia, +50 prosperity for the town it belongs to, the quest giver gains power.
+[color=#e06666]Failure:[/color] -5 relation, the quest giver loses power, the town it belongs to loses 25 prosperity.
+
+[color=#ffd966]Food Crisis in Town[/color]
+[i]Who asks:[/i] a merchant in a [color=#93c47d]starving town[/color].
+[i]The job:[/i] bring [color=#93c47d]300 food[/color]. Grain, fish and meat all count. You have [color=#93c47d]14 days[/color].
+[color=#93c47d]Rewards:[/color] every unit is bought at [color=#93c47d]triple the average price[/color], +3 renown, +10 relation with the merchant, +5 with every other notable in town.
+[color=#93c47d]Town:[/color] +300 food stocks (stops the starvation), +100 prosperity, the merchant gains power.
+[color=#e06666]Failure:[/color] -10 relation, the merchant loses power, the town loses 50 prosperity.
+
+[color=#ffd966]Long Distance Caravan[/color]
+[i]Who asks:[/i] a [color=#93c47d]rich merchant[/color] in an inland town.
+[i]The job:[/i] escort a large caravan to a [color=#93c47d]distant town[/color] that is not at war with the merchant's kingdom. The caravan buys [color=#93c47d]real goods[/color] at home and sells them at the destination. Raiders may attack once on each part of the trip. The time limit depends on the distance (at least [color=#93c47d]30 days[/color]).
+[i]You need:[/i] clan tier 4 and 50 troops.
+[color=#93c47d]Rewards:[/color] [color=#93c47d]half of the trade profit[/color], +5 renown, +10 relation with the merchant, +5 with every other notable in town, Honor trait XP.
+[color=#93c47d]Town:[/color] +20 prosperity, the merchant gains power. The caravan stays in the world only if the merchant owns no other caravan. Otherwise it sells its goods, gives the gold back and disbands, so caravans do not pile up.
+[color=#e06666]Failure:[/color] if the caravan is lost: -5 relation, Honor loss, the merchant loses power, the town loses 10 prosperity. Attacking the caravan yourself is worse: -10 relation, a big Honor loss, -20 prosperity.
+
+[color=#ffd966]Fund the Walls[/color]
+[i]Who asks:[/i] the lord who leads the clan that owns a [color=#93c47d]town or castle[/color] that is building something.
+[i]The job:[/i] bring gold for the construction. Castles ask [color=#93c47d]5000-15000[/color] and towns ask [color=#93c47d]10000-30000[/color]. Richer settlements ask for more. Hand the gold over from the town or castle menu. It goes into the vanilla construction reserve. You have [color=#93c47d]30 days[/color].
+[i]You need:[/i] clan tier 4.
+[color=#93c47d]Rewards:[/color] +5 to +20 relation with the lord and +3 to +15 renown, both growing with the amount. You also get [color=#93c47d]influence[/color] if you are in the same kingdom, and Generosity trait XP.
+[color=#e06666]Failure:[/color] -5 relation.
+[color=#999999]Cancelled if the lord loses the settlement or war breaks out.[/color]
+
+[color=#ffd966]Donate Elite Rangers[/color]
+[i]Who asks:[/i] the lord who leads the clan that owns a [color=#93c47d]town or castle[/color]. He asks only if the garrison has room, food and enough money to pay them.
+[i]The job:[/i] bring the [color=#93c47d]best foot archers or crossbowmen[/color] of his kingdom's culture: [color=#93c47d]10 for a castle, 20 for a town[/color]. Hand them over from the town or castle menu. They go to the front of the garrison, so they are the last to desert. You have [color=#93c47d]60 days[/color].
+[i]You need:[/i] clan tier 4.
+[color=#93c47d]Rewards:[/color] [color=#93c47d]1500 gold + twice the recruit cost of each troop[/color] (paid by the lord), +10 relation, +5 renown, and the vanilla influence for leaving troops in a garrison if you are in the same kingdom.
+[color=#e06666]Failure:[/color] -5 relation.
+[color=#999999]Once donated, they belong to the owner. His lords may take them from the garrison like any other troops. Cancelled if the lord loses the settlement or war breaks out.[/color]
+
+[color=#ffff00][size=4]Features[/size][/color]
+[color=#ffd966]AI lords who resolve these quests get the same rewards as the player, and the village, town or castle gets the same benefits. For Fund the Walls and Donate Elite Rangers, AI lords of the same realm who visit the settlement can pay the gold or leave the troops themselves.[/color] ([color=#6aa84f]on[/color]/[color=#e06666]off[/color])
+[color=#93c47d]AI lords who resolve vanilla quests get the quest's gold reward, some renown and better relation with the quest giver.[/color] ([color=#6aa84f]on[/color]/[color=#e06666]off[/color])
+[color=#ffd966]Every quest can be turned off separately. The change applies right away, without reloading.[/color] ([color=#6aa84f]on[/color]/[color=#e06666]off[/color] each)
+[color=#93c47d]Bandit Army size, from 50% to 500%.[/color]
+[color=#ffd966]Remove the 50-troop requirement for the Bandit Army quest.[/color] ([color=#6aa84f]on[/color]/[color=#e06666]off[/color])
+[color=#93c47d]Works with or without Mod Configuration Menu.[/color]
+[color=#ffd966]Translations for 12 languages.[/color]
+
+[center][color=#6fa8dc][size=4]Additional languages included (using copilot ai translation)[/size][/color]
+Português (BR), 简体中文, 繁體中文, Deutsch, Français, Italiano, 日本語, 한국어, Polski, Русский, Español (LA), Türkçe[/center]
+
+[color=#ffff00][size=4]Settings[/size][/color]
+[color=#6fa8dc]Quests[/color]
+[color=#ffd966]AI lords get quest rewards[/color] - default [color=#6aa84f]on[/color]
+[color=#ffd966]AI lords get vanilla quest rewards[/color] - default [color=#6aa84f]on[/color]
+[color=#6fa8dc]Bandit Army[/color]
+[color=#ffd966]Quest Enabled[/color] - default [color=#6aa84f]on[/color]
+[color=#ffd966]Remove minimum troop requirement[/color] - default [color=#e06666]off[/color]
+[color=#ffd966]Bandit Army Size[/color] - 50% to 500%, default [color=#93c47d]100%[/color]
+[color=#6fa8dc]Militia Spears, Starving Town, Long Distance Caravan, Fund the Walls, Donate Elite Rangers[/color]
+[color=#ffd966]Quest Enabled[/color] - default [color=#6aa84f]on[/color] (one for each quest)
+[color=#6fa8dc]Technical settings[/color]
+[color=#ffd966]Logging for debugging[/color] - default [color=#e06666]off[/color]
+[color=#6fa8dc]With Mod Configuration Menu:[/color] change them in game under [color=#ffd966]Options > Mod Options[/color]. Changes apply at once.
+[color=#6fa8dc]Without Mod Configuration Menu:[/color] open [color=#ffd966]Modules[/color]\[color=#f1c232]AdditionalQuestsRedux[/color]\[color=#ffd966]ModConfiguration.xml[/color] in any text editor. The file is read every time a campaign is started or loaded. If it is deleted or broken, the mod creates a new one with the default values.
+
+[color=#ffff00][size=4]Game versions[/size][/color]
+[color=#93c47d]1.5.7[/color], [color=#93c47d]1.4.8[/color], [color=#93c47d]1.4.7[/color] in the same download. The mod picks the right files for your game by itself.
+
+[color=#ffff00][size=4]Compatibility[/size][/color]
+Can be added to an existing save [color=#93c47d]anytime[/color]. Saves from older versions of this mod keep working.
+[color=#e06666]Adds data[/color] to save game files. To remove it safely: with cheats on, open the console (Alt + ~) and type [color=#ffd966]additional_quests.uninstall[/color], then save, exit and remove the mod.
+Saves from the old Additional Quests keep working. [color=#e06666]Delete[/color] the old [color=#ffd966]Modules[/color]\[color=#f1c232]AdditionalQuests[/color] folder before installing.
+One small Harmony patch, only for Governors Handle Issues (Updated) and only when that mod is installed; everything else uses campaign events. Load order with [color=#93c47d]GHI[/color] does not matter.
+Works with [url=https://www.nexusmods.com/mountandblade2bannerlord/mods/9590]Governors Handle Issues (Updated)[/url]:
+[color=#93c47d]Governors can resolve the four village and town quests using garrison troops and their skills, and get the quest rewards.[/color]
+[color=#ffd966]Bandit Army: 40 troops, Tactics or Leadership 100, +500 skill XP.[/color]
+[color=#93c47d]Militia Spears: 5 troops, Trade or Smithing 60, +800 skill XP.[/color]
+[color=#ffd966]Food Crisis: 8 troops, Trade or Steward 60, +800 skill XP.[/color]
+[color=#93c47d]Long Distance Caravan: 20 troops, Trade or Tactics 100, +800 skill XP. The merchant makes the same trade and pays the governor the same share.[/color]
+[color=#ffd966]Fund the Walls and Donate Elite Rangers are lord quests and are not handled by governors.[/color]
+[color=#93c47d]Governors skip quests that are turned off in this mod's settings.[/color]
+[color=#ffd966]You still never get a "send a companion" option for these quests.[/color]
+
+[color=#ffff00][size=4]Requirements[/size][/color]
+[url=https://www.nexusmods.com/mountandblade2bannerlord/mods/2006]Harmony[/url] - [color=#e06666]required[/color].
+[url=https://www.nexusmods.com/mountandblade2bannerlord/mods/612]Mod Configuration Menu[/url] - [color=#6aa84f]optional[/color], for changing the settings in game.
+
+[color=#ffff00][size=4]Installation[/size][/color]
+Updating? [color=#e06666]Delete the old mod folder first[/color], never overwrite it.
+Advisable to use [color=#ffd966]7zip[/color] to extract archive.
+Put it in [color=#ffd966]Mount & Blade II Bannerlord[/color]\[color=#f1c232]Modules[/color] folder.
+Enable the mod in the launcher. [url=https://www.nexusmods.com/mountandblade2bannerlord/mods/2006]Harmony[/url] and [url=https://www.nexusmods.com/mountandblade2bannerlord/mods/612]Mod Configuration Menu[/url] (if you use it) must be above it.
+
+[color=#ffff00][size=4]Found a problem?[/size][/color]
+Generate a crash report link using [url=https://www.nexusmods.com/mountandblade2bannerlord/mods/2018]ButterLib[/url] mod. How to do that the mini guide is here: [url=http://bannerlordmodding.lt/guides/how_to_report_a_crash/]How To Report A Crash[/url]
+Console commands for testing (cheats on, open the console with Alt + ~):
+[color=#ffd966]additional_quests.give_bandit_army[/color] - inside a village.
+[color=#ffd966]additional_quests.give_militia_spears[/color] - inside a village.
+[color=#ffd966]additional_quests.give_starving_town[/color] - inside a town.
+[color=#ffd966]additional_quests.give_long_distance_caravan[/color] - inside a town.
+[color=#ffd966]additional_quests.give_fund_the_walls[/color] - inside a town or castle.
+[color=#ffd966]additional_quests.give_donate_elite_rangers[/color] - inside a town or castle. Add [color=#ffd966]troops[/color] to also get the requested troops.
+[color=#ffd966]additional_quests.uninstall[/color] - cancels all quests from this mod before removing it.
+Turn on [color=#ffd966]Logging for debugging[/color] in [color=#ffd966]MCM[/color] settings or [color=#ffd966]ModConfiguration.xml[/color] in mod folder, [color=#f6b26b]repeat the problem[/color], then attach the file from [color=#ffd966]Modules[/color]\[color=#f1c232]AdditionalQuestsRedux[/color]\[color=#ffd966]logs[/color] to your [url=https://www.nexusmods.com/mountandblade2bannerlord/mods/2018]ButterLib[/url] crash report.
+
+[color=#a4c2f4]General Credits:[/color]
+The author of the original [url=https://www.nexusmods.com/mountandblade2bannerlord/mods/3066]Additional Quests[/url].
+[url=https://next.nexusmods.com/profile/LesserScholar]Lesser Scholar[/url] who made extensive [url=https://www.youtube.com/watch?v=tOziMRXJ7tM&list=PLzebdAxJeltRwfJ8jzsNolgHkRvLjoCRC]Artisan Workshop Mod Tutorial[/url].
+[url=https://next.nexusmods.com/profile/LitauenLitauen]LitauenLitauen[/url] for his priceless modding documentation at [url=http://bannerlordmodding.lt/]BannerlordModding.lt[/url].
+Mount & Blade Modding community [url=https://discord.gg/TGpNRpXGQq]Discord Channel[/url].
+
+[color=#a4c2f4]Source On GitHub:[/color] [url=https://github.com/tadastalalas/AdditionalQuestsRedux]https://github.com/tadastalalas/AdditionalQuestsRedux[/url]
+[color=#a4c2f4]Issues, Suggestions & Other Miscellaneous:[/color] [url=https://discord.gg/NwS7yQgxvu]https://discord.gg/NwS7yQgxvu[/url]
+[color=#a4c2f4]Comprehensive Bannerlord Modding Guide:[/color] [url=https://www.nexusmods.com/mountandblade2bannerlord/mods/11354]Vanilla Plus Proper Modding Notes[/url]
+[color=#a4c2f4]Other Mods:[/color] [url=https://www.nexusmods.com/profile/TadasTheLithuanian/mods]TadasTheLithuanian Nexus Profile[/url]
+[color=#a4c2f4]Support Me On:[/color] [url=https://ko-fi.com/tadasthelithuanian]https://ko-fi.com/tadasthelithuanian[/url] [color=#a4c2f4]or[/color] [url=https://paypal.me/tadastalalas]https://paypal.me/tadastalalas[/url]

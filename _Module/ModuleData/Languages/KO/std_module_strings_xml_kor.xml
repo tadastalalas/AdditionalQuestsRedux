@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+	<tags>
+		<tag language="한국어" />
+	</tags>
+	<strings>
+		<!-- MCM settings -->
+		<string id="AQ_Rw7pL2x" text="퀘스트" />
+		<string id="AQ_b8NfQ4m" text="도적 군대" />
+		<string id="AQ_Hq5vD1s" text="민병대 창" />
+		<string id="AQ_y2GcX7k" text="굶주리는 도시" />
+		<string id="AQ_ShuaUUm" text="장거리 대상" />
+		<string id="AQ_7wmctzL" text="성벽 자금 지원" />
+		<string id="AQ_dR9kq2V" text="정예 사수 기증" />
+		<string id="AQ_tWD2HrQ" text="기술 설정" />
+		<string id="AQ_Pm4tZ8w" text="퀘스트 활성화" />
+		<string id="AQ_k3Tz9Qe" text="추가 퀘스트 Redux" />
+		<string id="AQ_e9JrB3n" text="마을 유력자가 '도적 군대' 퀘스트를 제안할 수 있게 합니다. 이미 제안되었거나 수락한 퀘스트에는 영향을 주지 않습니다. [기본값: 활성화]" />
+		<string id="AQ_V6hW1yd" text="최소 병력 조건 제거" />
+		<string id="AQ_s3KxM5q" text="'도적 군대' 퀘스트를 시작하는 데 필요한 최소 병력 50명 조건을 제거합니다. [기본값: 비활성화]" />
+		<string id="AQ_C7uN2fa" text="도적 군대 규모" />
+		<string id="AQ_j4QbT9r" text="도적 군대 부대의 규모를 변경합니다. 변경 후 생성되는 도적 군대에 적용됩니다. [기본값: 100%]" />
+		<string id="AQ_Lz8eY3p" text="마을 유력자가 '민병대 창' 퀘스트를 제안할 수 있게 합니다. 이미 제안되었거나 수락한 퀘스트에는 영향을 주지 않습니다. [기본값: 활성화]" />
+		<string id="AQ_f1XdR6v" text="도시 상인이 '굶주리는 도시' 퀘스트를 제안할 수 있게 합니다. 이미 제안되었거나 수락한 퀘스트에는 영향을 주지 않습니다. [기본값: 활성화]" />
+		<string id="AQ_kdH4PaP" text="도시 상인이 '장거리 대상' 퀘스트를 제안할 수 있게 합니다. 이미 제안되었거나 수락한 퀘스트에는 영향을 주지 않습니다. [기본값: 활성화]" />
+		<string id="AQ_Rp85ntf" text="영주가 자신의 도시와 성을 위해 '성벽 자금 지원' 퀘스트를 제안할 수 있게 합니다. 이미 제안되었거나 수락한 퀘스트에는 영향을 주지 않습니다. [기본값: 활성화]" />
+		<string id="AQ_Tr4nGrs" text="영주가 자신의 도시와 성을 위해 '정예 사수 기증' 퀘스트를 제안할 수 있게 합니다. 이미 제안되었거나 수락한 퀘스트에는 영향을 주지 않습니다. [기본값: 활성화]" />
+		<string id="AQ_N5gRw2c" text="디버깅을 위한 로깅" />
+		<string id="AQ_u8LmK4d" text="디버깅을 위한 로깅(영어 전용). [기본값: 비활성화]" />
+		<string id="AQ_Xk4mT9b" text="AI 영주가 퀘스트 보상을 받음" />
+		<string id="AQ_q7RzW2n" text="AI 영주가 이 퀘스트 중 하나를 해결하면, 그 영주는 플레이어가 받을 금화, 명성, 관계를 받고 마을이나 도시도 같은 혜택을 받습니다. [기본값: 활성화]" />
+		<string id="AQ_Vd3nH8s" text="AI 영주가 기본 퀘스트 보상을 받음" />
+		<string id="AQ_g6PwK1z" text="AI 영주가 기본 게임 퀘스트를 해결하면, 그 영주는 퀘스트의 금화 보상, 약간의 명성, 의뢰인과의 관계 상승을 얻고 의뢰인은 권력을 얻습니다. [기본값: 활성화]" />
+		<!-- Shared by several quests -->
+		<string id="AQGenericCancelWarLog" text="당신의 가문은 이제 {ISSUE_GIVER.LINK}의 영주와 전쟁 중입니다. {ISSUE_GIVER.LINK}와(과)의 합의가 취소되었습니다." />
+		<string id="AQGenericCancelRaidLog" text="{SETTLEMENT_NAME}이(가) 다른 누군가에게 약탈당했습니다. {ISSUE_GIVER.LINK}와(과)의 합의가 취소되었습니다." />
+		<!-- Bandit Army -->
+		<string id="AQBATitle" text="도적 군대가 {ISSUE_SETTLEMENT}(으)로 향하고 있습니다!" />
+		<string id="AQBADescription" text="도적 군대가 약탈을 위해 {ISSUE_SETTLEMENT}(으)로 향하고 있습니다. {ISSUE_SETTLEMENT}의 주민들은 스스로를 지키기 위해 도움이 필요합니다." />
+		<string id="AQBAIssueBrief" text="끔찍한 소식이 들어왔습니다. 정찰병들 말로는 스스로 도적 '왕'이라 칭하는 자가 이끄는 오합지졸 군대가 지금 우리 마을로 오고 있는데, 우리가 가진 모든 것을 빼앗을 작정이랍니다. 귀족분들께 도움을 청하는 전갈을 보냈지만, 그분들이 도착할 즈음엔 너무 늦을까 두렵습니다." />
+		<string id="AQBAIssueAccept" text="걱정스러운 소식이군. 어떻게 방어할 생각이오?" />
+		<string id="AQBAIssueSolution" text="우리 민병대가 집을 지키기 위해 싸우겠지만, 사람은 많을수록 좋습니다. 적은 대부분 쉽게 돈을 벌려는 약탈자 같은 오합지졸이겠지만, 더 잘 훈련된 도적들도 몇 섞여 있을 겁니다. 마을을 지키는 걸 도와주시겠습니까?" />
+		<string id="AQBAIssueSolutionAccept" text="좋소, 마을을 지키는 걸 돕겠소." />
+		<string id="AQBARumor" text="도적 군대가 지금 이쪽으로 오고 있대요! 도망치든, 숨든... 여기만 아니면 어디든 가야 해요! 제발, 우릴 도와주세요!" />
+		<string id="AQBAQuestAcceptLog" text="{QUEST_SETTLEMENT} 마을이 인근 은신처에서 온 도적 군대에게 곧 약탈당할 위기에 처했습니다! {QUEST_GIVER.LINK}이(가) 도적들이 마을을 쑥대밭으로 만들지 못하도록 막아 달라고 부탁했습니다.{newline}{newline}도적들이 {QUEST_SETTLEMENT}에 도달하지 못하도록 막으십시오." />
+		<string id="AQBABanditRaidingLog" text="도적 군대가 {QUEST_SETTLEMENT}을(를) 약탈하고 있습니다! 마을 사람들을 지키십시오!" />
+		<string id="AQBASuccessLog" text="{QUEST_SETTLEMENT}을(를) 약탈하려던 도적 군대를 격파했습니다. 마을 사람들이 무척 고마워합니다. 마을을 다스리는 세력이 마을을 지킨 대가로 포상금을 내렸습니다." />
+		<string id="AQBAFailureLog" text="도적 군대를 막지 못했습니다. 도적들은 {QUEST_SETTLEMENT}을(를) 짓밟고 떠났습니다." />
+		<string id="AQBATimeoutLog" text="도적 군대를 물리치는 데 너무 오래 걸렸습니다. 다행히 {QUEST_SETTLEMENT}을(를) 다스리는 귀족들이 제때 대응했습니다. 합의가 취소되었습니다." />
+		<string id="AQ_T07dYvH" text="{QUEST_SETTLEMENT}(으)로 향하던 도적 군대가 다른 누군가에게 섬멸되었습니다. {QUEST_GIVER.LINK}와(과)의 합의가 취소되었습니다." />
+		<string id="AQBAOfferDialog" text="감사합니다. 도적들은 근처 은신처에서 출발합니다. 정찰병들이 위치를 알려 드릴 겁니다. 성공을 기원하겠습니다." />
+		<string id="AQBADiscussDialogStart" text="이제 곧 놈들이 올 것 같습니다. 제때 막아 주시길 바랍니다." />
+		<string id="AQBADiscussDialogTalk" text="걱정 마시오, 놈들의 '군대'를 박살 내겠소." />
+		<string id="AQBADiscussDialogFinish" text="좋습니다, 좋아요. 다시 한번 감사드립니다." />
+		<string id="AQBABanditConfront" text="넌 대체 뭐야? 여긴 군대라고, 마을에 '세금' 좀 걷으러 가는 길이다. 몸 성히 있고 싶으면 우리 길에서 비켜!" />
+		<string id="AQBABanditConfrontResponse" text="이 근방에서 약탈하는 건 이제 끝이다, 우리가 너희를 막으러 왔다!" />
+		<string id="AQBADirection" text="도적 방향" />
+		<string id="AQBABanditHideoutMarked" text="{QUEST_GIVER.NAME}이(가) 도적 은신처를 표시했습니다. 도적 군대는 그곳에서 마을로 향할 것입니다." />
+		<string id="AQBABanditArmyName" text="{BANDIT_CULTURE} 군대" />
+		<!-- Militia Spears -->
+		<string id="AQMSTitle" text="{ISSUE_SETTLEMENT} 민병대에 창이 필요합니다" />
+		<string id="AQMSDescription" text="{ISSUE_SETTLEMENT}의 촌장이 민병대용 창을 필요로 합니다." />
+		<string id="AQMSIssueBrief" text="지금 마을 민병대를 조직하고 있는데, 훈련하고 싸울 무기가 부족합니다. 특히 무기고에 창이 거의 없습니다." />
+		<string id="AQMSIssueAccept" text="어떻게 도우면 되겠소?" />
+		<string id="AQMSIssueSolution" text="사람들을 민병으로 훈련시키는 건 제가 할 수 있지만, 싸울 창을 구해 줄 사람이 필요합니다. 주변 도시에서 살 수 있고, 대장장이 솜씨가 좋다면 직접 만들 수도 있습니다. 모두 {SPEARS_AMOUNT}자루의 창이 필요합니다. 창 값으로 {REWARD_AMOUNT}{GOLD_ICON}을(를) 드리겠습니다." />
+		<string id="AQMSIssueSolutionAccept" text="필요한 창을 구해 오겠소." />
+		<string id="AQMSRumor" text="마을 젊은이들이 모두 새로 꾸려진 민병대에 들어갔지. 그런데 {QUEST_GIVER.NAME}에게는 사내들 절반이 쓸 창도 없어서 나무 막대기로 훈련한다더군. 진짜 싸움에서까지 그 막대기를 쓰게 되진 않았으면 좋겠어!" />
+		<string id="AQMSQuestAcceptLog" text="{QUEST_SETTLEMENT}의 {?QUEST_GIVER.GENDER}여촌장{?}촌장{\?} {QUEST_GIVER.LINK}이(가) 마을 민병대를 위해 창 {SPEARS_AMOUNT}자루를 가져다 달라고 부탁했습니다. 이로써 마을에서 싸울 수 있는 민병의 수가 늘어날 것입니다.{newline}{newline}당신은 최대한 빨리 창 {SPEARS_AMOUNT}자루를 가져다주기로 했습니다. 창 값으로 {REWARD_AMOUNT}{GOLD_ICON}을(를) 받게 됩니다.{newline}{newline}창은 한손 장병기여야 합니다." />
+		<string id="AQMSHasSpearsLog" text="이제 퀘스트를 완료하기에 충분한 창을 가지고 있습니다. {QUEST_SETTLEMENT}(으)로 돌아가 전달하십시오." />
+		<string id="AQMSHaveSpearsLog" text="퀘스트를 완료하기에 충분한 창을 가지고 있습니다. {QUEST_SETTLEMENT}(으)로 돌아가 전달하십시오." />
+		<string id="AQMSTimeoutLog" text="마을 사람들에게 창 {SPEARS_AMOUNT}자루를 전달하지 못했습니다. 그들은 민병대를 제대로 훈련시킬 수 없을 것입니다. 촌장이 실망했습니다." />
+		<string id="AQMSSuccessLog" text="마을 사람들에게 창 {SPEARS_AMOUNT}자루를 전달했습니다. 민병대는 훈련하고 마을을 지킬 준비가 되었습니다. 촌장과 마을 사람들이 고마워합니다." />
+		<string id="AQMSThankYouDialog" text="감사합니다, {?PLAYER.GENDER}마님{?}나리{\?}! 이 창들을 요긴하게 쓰겠습니다." />
+		<string id="AQMSWaitingDialog" text="창을 기다리고 있습니다, {?PLAYER.GENDER}마님{?}나리{\?}." />
+		<string id="AQMSDiscussDialog" text="창 {SPEARS_AMOUNT}자루를 가져오셨습니까?" />
+		<string id="AQMSHandOverDialog" text="그렇소. 여기 있소." />
+		<string id="AQMSNotYetDialog" text="구하는 중이오." />
+		<string id="AQMSNotEnoughSpears" text="창이 충분하지 않습니다." />
+		<string id="AQMSQuestObjective" text="한손 장병기 모으기" />
+		<!-- Starving Town -->
+		<string id="AQSTitle" text="{ISSUE_SETTLEMENT}의 식량 위기" />
+		<string id="AQSTDescription" text="{SETTLEMENT} 도시가 굶주리고 있어, {MERCHANT_NAME}이(가) 도시의 식량 비축분을 채울 도움을 필요로 합니다." />
+		<string id="AQSTIssueBrief" text="식량 사정이 나빠서 도시가 굶주리고 있습니다. 도시로 들어오는 식량을 모두 배급제로 돌렸지만, 사람들에게 끼니를 내주기가 날마다 더 힘들어집니다. 이대로 오래 가면 우리 모두 굶어 죽거나 백성들이 폭동을 일으킬 겁니다." />
+		<string id="AQSTIssueAccept" text="내가 도울 수 있겠소? 남는 식량이 조금 있소." />
+		<string id="AQSTIssueSolution" text="친절에 감사드리지만, 도시를 다시 채우려면 훨씬 많은 식량이 필요합니다. 식량 부족의 원인을 해결할 때까지 버틸 수 있을 만큼요. 곡물, 고기, 생선을 구해 주신다면 각각 평균 가격의 세 배를 드리겠습니다. 도시에 공급하려면 모두 합쳐 최소 {FOOD_AMOUNT}단위의 식량이 필요합니다." />
+		<string id="AQSTIssueSolutionAccept" text="도시를 위해 식량을 구하러 가겠소." />
+		<string id="AQSTRumor" text="너무 배고파... 아, 죄송해요, 제가 부딪혔나요? 요즘 정말 힘들어서... 못 먹은 지 너무 오래됐어요... 누가 {QUEST_GIVER.NAME}을(를) 도와 도시에 식량을 더 들여와 주면 좋을 텐데..." />
+		<string id="AQSTQuestAcceptLog" text="{QUEST_SETTLEMENT} 도시의 상인 {QUEST_GIVER.LINK}이(가) 현재의 식량 위기를 해결하도록 도시에 식량 {FOOD_AMOUNT}단위를 전달해 달라고 부탁했습니다. 식량은 곡물, 고기, 생선 중 무엇이든 됩니다.{newline}{newline}전달하면 각 물품의 평균 가격의 세 배를 받게 됩니다." />
+		<string id="AQSTHasFoodLog" text="이제 퀘스트를 완료하기에 충분한 식량을 가지고 있습니다. {QUEST_SETTLEMENT}(으)로 돌아가 전달하십시오." />
+		<string id="AQSTHaveFoodLog" text="퀘스트를 완료하기에 충분한 식량을 가지고 있습니다. {QUEST_SETTLEMENT}(으)로 돌아가 전달하십시오." />
+		<string id="AQSTTimeoutLog" text="{QUEST_SETTLEMENT}에 식량 {FOOD_AMOUNT}단위를 전달하지 못했습니다. 사람들은 계속 굶주리고 있으며 {QUEST_GIVER.LINK}이(가) 실망했습니다." />
+		<string id="AQSTSuccessLog" text="{QUEST_SETTLEMENT}에 식량 {FOOD_AMOUNT}단위를 전달했습니다. 사람들이 식량이 도착하자 기뻐합니다. 당신은 사람들을 굶주림에서 구했습니다." />
+		<string id="AQSTThankYouDialog" text="감사합니다, {?PLAYER.GENDER}마님{?}나리{\?}! 이 식량이 우리 모두에게 큰 도움이 될 겁니다." />
+		<string id="AQSTWaitingDialog" text="식량 보급을 기다리고 있습니다, {?PLAYER.GENDER}마님{?}나리{\?}." />
+		<string id="AQSTDiscussDialog" text="식량 {FOOD_AMOUNT}단위를 가져오셨습니까?" />
+		<string id="AQSTHandOverDialog" text="그렇소. 여기 있소." />
+		<string id="AQSTNotYetDialog" text="구하는 중이오." />
+		<string id="AQSTNotEnoughFood" text="식량이 충분하지 않습니다." />
+		<string id="AQSTQuestObjective" text="곡물/생선/고기 모으기." />
+		<string id="AQSTGaveFoodMeat" text="고기 {FOOD_AMOUNT}단위를 건넸습니다. 그 대가로 {GOLD_AMOUNT}{GOLD_ICON}을(를) 받았습니다." />
+		<string id="AQSTGaveFoodFish" text="생선 {FOOD_AMOUNT}단위를 건넸습니다. 그 대가로 {GOLD_AMOUNT}{GOLD_ICON}을(를) 받았습니다." />
+		<string id="AQSTGaveFoodGrain" text="곡물 {FOOD_AMOUNT}단위를 건넸습니다. 그 대가로 {GOLD_AMOUNT}{GOLD_ICON}을(를) 받았습니다." />
+		<!-- Long Distance Caravan -->
+		<string id="AQ_Y9tybDT" text="{DESTINATION}(으)로 향하는 장거리 대상" />
+		<string id="AQ_XX5gNZk" text="{ORIGIN}의 상인 {QUEST_GIVER.NAME}이(가) 짐을 가득 실은 대상을 먼 도시 {DESTINATION}(으)로 보내려 하며, 가는 길 내내 지켜 줄 강한 호위가 필요합니다." />
+		<string id="AQ_wVcaPYi" text="이 근방 시장에는 {DESTINATION}에서 큰돈이 되는 물건이 넘쳐납니다. 저축의 대부분을 큰 대상 하나에 쏟아붓고 있지만, 길은 멀고 그렇게 부유한 대상은 길목의 모든 산적을 끌어들일 겁니다." />
+		<string id="AQ_XZWCGX2" text="먼 길에는 강한 호위가 필요하오. 무엇을 제안하겠소?" />
+		<string id="AQ_vhXhJyN" text="제 대상과 함께 {DESTINATION}까지 가 주십시오. 대상은 가는 길에 있는 도시들에서 쉬어 갈 겁니다. 대상을 시야에서 놓치지 말고 무사히 지켜 주십시오. 물건이 팔리면 이익의 절반을 드리겠습니다. 길이 위험하니 최소 {TROOP_COUNT}명은 데려오십시오." />
+		<string id="AQ_ExQRvbj" text="내 병사들은 준비되었소. 짐을 실으시오." />
+		<string id="AQ_pEEJxX2" text="{QUEST_GIVER.NAME}이(가) 막대한 재산어치 물건을 {DESTINATION}(으)로 보내려 한대. 누가 산적들을 막아낼 수만 있다면 천재고, 아니면 미친 짓이지." />
+		<string id="AQ_pHy3hjk" text="{ORIGIN}의 상인 {QUEST_GIVER.LINK}이(가) {CARGO_VALUE}{GOLD_ICON} 상당의 물건을 대상에 싣고 먼 도시 {DESTINATION}(으)로 보냈습니다. 당신은 끝까지 호위하기로 했습니다. 물건이 팔리면 이익의 절반을 받게 됩니다." />
+		<string id="AQ_2aFLWP3" text="{QUEST_GIVER.LINK}의 대상이 {DESTINATION}에 도착해 물건을 {EARNED}{GOLD_ICON}에 팔았습니다. 이번 여정의 이익은 {PROFIT}{GOLD_ICON}이며, 당신의 몫은 {SHARE}{GOLD_ICON}입니다." />
+		<string id="AQ_7DkphCy" text="{OLD_DESTINATION}에는 더 이상 안전하게 갈 수 없습니다. 대상은 대신 {DESTINATION}(으)로 향합니다." />
+		<string id="AQ_dgTZCFa" text="{QUEST_GIVER.LINK}의 대상이 물건을 안전하게 팔 수 있는 도시가 더 이상 없습니다. 대상은 소환되었고 당신과의 약속은 취소되었습니다." />
+		<!-- Fund the Walls -->
+		<string id="AQ_h9vC8AC" text="{SETTLEMENT} 성벽 자금 지원" />
+		<string id="AQ_IVFYrru" text="{QUEST_GIVER.NAME}은(는) {SETTLEMENT}의 건설 공사를 서두르고 싶지만, 금고에 돈이 부족합니다." />
+		<string id="AQ_0Mffnlm" text="{SETTLEMENT}의 일꾼들이 너무 느리게 일하고 있소. 내 금고의 디나르는 모두 전장의 병사들에게 들어가고, 석공들은 약속만으로는 일하지 않소." />
+		<string id="AQ_2LPPl97" text="내가 도울 수 있을지도 모르겠소. 무엇이 필요하오?" />
+		<string id="AQ_B4pZqEB" text="{AMOUNT}{GOLD_ICON}을(를) {SETTLEMENT}에 가져가 그곳의 내 집사에게 전해 주시오. 그 돈이면 공사가 훨씬 빨라질 것이오. 이런 관대함은 잊지 않겠소." />
+		<string id="AQ_Z8hQlbU" text="{AMOUNT}{GOLD_ICON}을(를) {SETTLEMENT}에 가져가겠소." />
+		<string id="AQ_XulpSCr" text="고맙소. {SETTLEMENT}의 내 집사가 기다리고 있을 것이오." />
+		<string id="AQ_wez8WeZ" text="돈은 {SETTLEMENT}에 도착했소?" />
+		<string id="AQ_rmmM5jw" text="아직이오. 가는 중이오." />
+		<string id="AQ_1t9xD52" text="{SETTLEMENT}의 영주 {QUEST_GIVER.LINK}이(가) 그곳의 건설 공사에 자금을 지원해 달라고 부탁했습니다. {SETTLEMENT}에 가서 집사에게 {AMOUNT}{GOLD_ICON}을(를) 전달하십시오." />
+		<string id="AQ_gwZpb5w" text="건설 공사를 위해 {AMOUNT}{GOLD_ICON} 전달" />
+		<string id="AQ_sJC2SY2" text="{SETTLEMENT}의 집사에게 {AMOUNT}{GOLD_ICON}을(를) 전달했습니다. 건설 공사가 더 빨라질 것입니다." />
+		<string id="AQ_XUmYvlU" text="제때 {SETTLEMENT}에 돈을 가져가지 못했습니다. {QUEST_GIVER.LINK}이(가) 실망했습니다." />
+		<!-- Donate Elite Rangers -->
+		<string id="AQ_Lk2rP9d" text="{SETTLEMENT}의 정예 사수" />
+		<string id="AQ_Wf6bT1x" text="{QUEST_GIVER.NAME}은(는) {SETTLEMENT}의 성벽을 지킬 {TROOP} {COUNT}명을 원합니다." />
+		<string id="AQ_Zm8cY4h" text="{SETTLEMENT}의 성벽은 그 뒤에 선 활만큼만 강하오. 내 수비대에는 사냥용 활을 든 농부의 아들이 아니라 진짜 사수가 필요하오. 그런 자들을 훈련하려면 몇 년이 걸리는데, 내게는 그럴 시간이 없소." />
+		<string id="AQ_Pj3vN6s" text="어떤 병사가 필요하오?" />
+		<string id="AQ_Gx5tK8m" text="{TROOP} {COUNT}명을 {SETTLEMENT}에 데려가 수비대에 남겨 주시오. 그 대가로 {REWARD}{GOLD_ICON}을(를) 지불하겠소. 그들을 훈련하는 데 든 비용보다 많을 것이오." />
+		<string id="AQ_Rb1yQ7w" text="{TROOP} {COUNT}명을 {SETTLEMENT}에 데려가겠소." />
+		<string id="AQ_Uf2mB8q" text="좋소. {SETTLEMENT}의 수비대장이 그들을 받아들일 것이오." />
+		<string id="AQ_Ia7sD5r" text="{TROOP}을(를) {SETTLEMENT}에 데려왔소?" />
+		<string id="AQ_Oq3nF9k" text="아직이오. 그런 병사들은 아무 마을에서나 구할 수 있는 게 아니오." />
+		<string id="AQ_Cs9dL2f" text="{SETTLEMENT}의 영주 {QUEST_GIVER.LINK}이(가) 그곳 수비대에 {TROOP} {COUNT}명을 데려와 달라고 부탁했습니다. 인계하면 {REWARD}{GOLD_ICON}을(를) 받게 됩니다." />
+		<string id="AQ_Hv3mR8t" text="수비대에 {TROOP} {COUNT}명 인계" />
+		<string id="AQ_Ye4hV7n" text="{SETTLEMENT}의 수비대에 {TROOP} {COUNT}명을 남겼습니다." />
+		<string id="AQ_Kw6pX3j" text="제때 {SETTLEMENT}에 병사들을 데려가지 못했습니다. {QUEST_GIVER.LINK}이(가) 실망했습니다." />
+		<string id="AQ_Nq7wE2c" text="부대에 건강한 {TROOP} {COUNT}명이 필요합니다." />
+	</strings>
+</base>

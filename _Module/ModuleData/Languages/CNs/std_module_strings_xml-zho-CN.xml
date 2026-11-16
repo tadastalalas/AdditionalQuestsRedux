@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+	<tags>
+		<tag language="简体中文" />
+	</tags>
+	<strings>
+		<!-- MCM settings -->
+		<string id="AQ_Rw7pL2x" text="任务" />
+		<string id="AQ_b8NfQ4m" text="土匪大军" />
+		<string id="AQ_Hq5vD1s" text="民兵长矛" />
+		<string id="AQ_y2GcX7k" text="饥荒城镇" />
+		<string id="AQ_ShuaUUm" text="长途商队" />
+		<string id="AQ_7wmctzL" text="资助城墙" />
+		<string id="AQ_dR9kq2V" text="捐赠精锐射手" />
+		<string id="AQ_tWD2HrQ" text="技术设定" />
+		<string id="AQ_Pm4tZ8w" text="启用任务" />
+		<string id="AQ_k3Tz9Qe" text="额外任务 Redux" />
+		<string id="AQ_e9JrB3n" text="允许村庄要人发布“土匪大军”任务。已发布或已接受的任务不受影响。[默认：启用]" />
+		<string id="AQ_V6hW1yd" text="取消最低兵力要求" />
+		<string id="AQ_s3KxM5q" text="取消开始“土匪大军”任务所需的最低 50 名士兵要求。[默认：禁用]" />
+		<string id="AQ_C7uN2fa" text="土匪大军规模" />
+		<string id="AQ_j4QbT9r" text="调整土匪大军部队的规模。仅对更改后生成的土匪大军生效。[默认：100%]" />
+		<string id="AQ_Lz8eY3p" text="允许村庄要人发布“民兵长矛”任务。已发布或已接受的任务不受影响。[默认：启用]" />
+		<string id="AQ_f1XdR6v" text="允许城镇商人发布“饥荒城镇”任务。已发布或已接受的任务不受影响。[默认：启用]" />
+		<string id="AQ_kdH4PaP" text="允许城镇商人发布“长途商队”任务。已发布或已接受的任务不受影响。[默认：启用]" />
+		<string id="AQ_Rp85ntf" text="允许领主为其城镇和城堡发布“资助城墙”任务。已发布或已接受的任务不受影响。[默认：启用]" />
+		<string id="AQ_Tr4nGrs" text="允许领主为其城镇和城堡发布“捐赠精锐射手”任务。已发布或已接受的任务不受影响。[默认：启用]" />
+		<string id="AQ_N5gRw2c" text="除错日志" />
+		<string id="AQ_u8LmK4d" text="除错日志（仅限英文）。[ 预设：停用 ]" />
+		<string id="AQ_Xk4mT9b" text="AI领主获得任务奖励" />
+		<string id="AQ_q7RzW2n" text="当AI领主解决这些任务之一时，该领主会获得玩家应得的第纳尔、声望和关系，村庄或城镇也会获得相同的好处。[默认：启用]" />
+		<string id="AQ_Vd3nH8s" text="AI领主获得原版任务奖励" />
+		<string id="AQ_g6PwK1z" text="当AI领主解决原版任务时，该领主会获得任务的第纳尔奖励、少量声望，并提升与任务发布者的关系，任务发布者也会获得权势。[默认：启用]" />
+		<!-- Shared by several quests -->
+		<string id="AQGenericCancelWarLog" text="你的家族现在与{ISSUE_GIVER.LINK}的领主处于战争状态。你与{ISSUE_GIVER.LINK}的约定已取消。" />
+		<string id="AQGenericCancelRaidLog" text="{SETTLEMENT_NAME}已被其他人劫掠。你与{ISSUE_GIVER.LINK}的约定已取消。" />
+		<!-- Bandit Army -->
+		<string id="AQBATitle" text="土匪大军正向{ISSUE_SETTLEMENT}进发！" />
+		<string id="AQBADescription" text="一支土匪大军正前往{ISSUE_SETTLEMENT}进行劫掠。{ISSUE_SETTLEMENT}的居民需要帮助来保卫自己。" />
+		<string id="AQBAIssueBrief" text="我收到了可怕的消息，我的斥候说，一支由自封的土匪“国王”率领的乌合之众正向我们村庄进发，打算夺走我们的一切。我已经向我们的贵族求援，但恐怕等他们赶到时已经太迟了。" />
+		<string id="AQBAIssueAccept" text="这消息令人不安，你们打算如何自卫？" />
+		<string id="AQBAIssueSolution" text="我们的民兵会为家园而战，但人越多越好。敌人大多是乌合之众，只是想捞快钱的劫匪，但其中也会有一些训练有素的土匪。你愿意帮我们保卫村庄吗？" />
+		<string id="AQBAIssueSolutionAccept" text="好的，我会帮忙保卫村庄。" />
+		<string id="AQBARumor" text="我听说一支土匪大军正朝这里杀来！我们得逃跑，或者躲起来，或者……总之不能留在这里！求求你，你一定要帮帮我们！" />
+		<string id="AQBAQuestAcceptLog" text="{QUEST_SETTLEMENT}村即将遭到来自附近藏身处的土匪大军劫掠！{QUEST_GIVER.LINK}请你阻止土匪摧毁村庄。{newline}{newline}阻止土匪抵达{QUEST_SETTLEMENT}。" />
+		<string id="AQBABanditRaidingLog" text="土匪大军正在劫掠{QUEST_SETTLEMENT}！保护村民！" />
+		<string id="AQBASuccessLog" text="你击败了企图劫掠{QUEST_SETTLEMENT}的土匪大军。村民们非常感激。统治该村的势力因你保卫村庄而给予了你赏金。" />
+		<string id="AQBAFailureLog" text="你没能阻止土匪大军。土匪洗劫了{QUEST_SETTLEMENT}后离开了。" />
+		<string id="AQBATimeoutLog" text="你花了太长时间才击败土匪大军。幸运的是，统治{QUEST_SETTLEMENT}的贵族及时做出了反应。你的约定已取消。" />
+		<string id="AQ_T07dYvH" text="前往{QUEST_SETTLEMENT}的土匪大军已被其他人消灭。你与{QUEST_GIVER.LINK}的约定已取消。" />
+		<string id="AQBAOfferDialog" text="谢谢你。土匪是从附近的一个藏身处出发的。我的斥候会告诉你它在哪里。我们会为你的胜利祈祷。" />
+		<string id="AQBADiscussDialogStart" text="我想他们很快就会到了。希望你能及时阻止他们。" />
+		<string id="AQBADiscussDialogTalk" text="别担心，我们会粉碎他们的“大军”。" />
+		<string id="AQBADiscussDialogFinish" text="好，好。再次感谢。" />
+		<string id="AQBABanditConfront" text="你到底是什么人？这可是一支大军，我们正要去村里收点“税”。识相的话就别挡我们的路！" />
+		<string id="AQBABanditConfrontResponse" text="你们别想再在这里劫掠了，我们就是来阻止你们的！" />
+		<string id="AQBADirection" text="土匪方向" />
+		<string id="AQBABanditHideoutMarked" text="{QUEST_GIVER.NAME}标出了土匪的藏身处。土匪大军将从那里出发前往村庄。" />
+		<string id="AQBABanditArmyName" text="{BANDIT_CULTURE}大军" />
+		<!-- Militia Spears -->
+		<string id="AQMSTitle" text="{ISSUE_SETTLEMENT}的民兵需要长矛" />
+		<string id="AQMSDescription" text="{ISSUE_SETTLEMENT}的村长需要为民兵准备长矛。" />
+		<string id="AQMSIssueBrief" text="我正在组织村里的民兵，但我们缺少用来训练和作战的武器。尤其是军械库里的长矛少得可怜。" />
+		<string id="AQMSIssueAccept" text="我能帮什么忙？" />
+		<string id="AQMSIssueSolution" text="训练村民成为民兵的事我能搞定，但我需要有人去找来作战用的长矛。你可以在附近的城镇购买。如果你的锻造手艺不错，甚至可以自己打造。我们一共需要{SPEARS_AMOUNT}支长矛。我会为这些长矛付给你{REWARD_AMOUNT}{GOLD_ICON}。" />
+		<string id="AQMSIssueSolutionAccept" text="我会找到你们需要的长矛。" />
+		<string id="AQMSRumor" text="村里的年轻人都报名加入了新组建的民兵。但我听说{QUEST_GIVER.NAME}的长矛连一半的人都不够用，所以他们只能拿木棍训练。希望他们不会在真正的战斗中也只能用这些木棍！" />
+		<string id="AQMSQuestAcceptLog" text="{QUEST_SETTLEMENT}的{?QUEST_GIVER.GENDER}女村长{?}村长{\?}{QUEST_GIVER.LINK}请你为村里的民兵送去{SPEARS_AMOUNT}支长矛。这将有助于增加村中可用民兵的数量。{newline}{newline}你已同意尽快带来{SPEARS_AMOUNT}支长矛。你将为这些长矛获得{REWARD_AMOUNT}{GOLD_ICON}。{newline}{newline}长矛必须是单手长杆武器。" />
+		<string id="AQMSHasSpearsLog" text="你现在有足够的长矛来完成任务。返回{QUEST_SETTLEMENT}交付它们。" />
+		<string id="AQMSHaveSpearsLog" text="你有足够的长矛来完成任务。返回{QUEST_SETTLEMENT}交付它们。" />
+		<string id="AQMSTimeoutLog" text="你未能向村民交付{SPEARS_AMOUNT}支长矛。他们将无法好好训练民兵。村长很失望。" />
+		<string id="AQMSSuccessLog" text="你已向村民交付了{SPEARS_AMOUNT}支长矛。他们的民兵已准备好训练并保卫村庄。村长和村民们都很感激。" />
+		<string id="AQMSThankYouDialog" text="谢谢您，{?PLAYER.GENDER}夫人{?}大人{\?}！我们会好好利用这些长矛。" />
+		<string id="AQMSWaitingDialog" text="我们在等那些长矛，{?PLAYER.GENDER}夫人{?}大人{\?}。" />
+		<string id="AQMSDiscussDialog" text="你带来{SPEARS_AMOUNT}支长矛了吗？" />
+		<string id="AQMSHandOverDialog" text="是的，都在这里。" />
+		<string id="AQMSNotYetDialog" text="我正在办。" />
+		<string id="AQMSNotEnoughSpears" text="你的长矛不够。" />
+		<string id="AQMSQuestObjective" text="收集单手长杆武器" />
+		<!-- Starving Town -->
+		<string id="AQSTitle" text="{ISSUE_SETTLEMENT}的粮食危机" />
+		<string id="AQSTDescription" text="{SETTLEMENT}正在闹饥荒，{MERCHANT_NAME}需要帮助来补充城里的粮食储备。" />
+		<string id="AQSTIssueBrief" text="粮食状况很糟，城里正在挨饿。我们不得不对所有运进城的粮食实行配给，但每天让人们吃上饭都越来越难。如果再这样下去，我们要么全都饿死，要么百姓就会暴动。" />
+		<string id="AQSTIssueAccept" text="我能帮忙吗？我有些多余的食物。" />
+		<string id="AQSTIssueSolution" text="感谢你的好意，但我们需要更多的食物来补充城里的储备，足以支撑到我们解决粮食短缺的根源。如果你能提供谷物、肉和鱼，我会按每种平均价格的三倍付钱给你。我们总共至少需要{FOOD_AMOUNT}单位食物才能维持城镇供给。" />
+		<string id="AQSTIssueSolutionAccept" text="我会出发为城镇寻找食物。" />
+		<string id="AQSTRumor" text="我好饿……哦，抱歉，我撞到你了吗？最近日子太难熬了……我已经好久没吃东西了……要是有人能帮{QUEST_GIVER.NAME}给城里运来更多食物就好了……" />
+		<string id="AQSTQuestAcceptLog" text="{QUEST_SETTLEMENT}城的商人{QUEST_GIVER.LINK}请你向城里运送{FOOD_AMOUNT}单位食物，以缓解当前的粮食危机。食物可以是谷物、肉或鱼。{newline}{newline}交付时，你将获得每种货物平均价格三倍的报酬。" />
+		<string id="AQSTHasFoodLog" text="你现在有足够的食物来完成任务。返回{QUEST_SETTLEMENT}交付。" />
+		<string id="AQSTHaveFoodLog" text="你有足够的食物来完成任务。返回{QUEST_SETTLEMENT}交付。" />
+		<string id="AQSTTimeoutLog" text="你未能向{QUEST_SETTLEMENT}运送{FOOD_AMOUNT}单位食物。百姓仍在挨饿，{QUEST_GIVER.LINK}很失望。" />
+		<string id="AQSTSuccessLog" text="你已向{QUEST_SETTLEMENT}运送了{FOOD_AMOUNT}单位食物。百姓为食物的到来欢欣鼓舞。你把人们从饥饿中拯救了出来。" />
+		<string id="AQSTThankYouDialog" text="谢谢您，{?PLAYER.GENDER}夫人{?}大人{\?}！这些食物会帮到我们所有人。" />
+		<string id="AQSTWaitingDialog" text="我们在等食物补给，{?PLAYER.GENDER}夫人{?}大人{\?}。" />
+		<string id="AQSTDiscussDialog" text="你带来{FOOD_AMOUNT}单位食物了吗？" />
+		<string id="AQSTHandOverDialog" text="是的，在这里。" />
+		<string id="AQSTNotYetDialog" text="我正在办。" />
+		<string id="AQSTNotEnoughFood" text="你的食物不够。" />
+		<string id="AQSTQuestObjective" text="收集谷物/鱼/肉。" />
+		<string id="AQSTGaveFoodMeat" text="你交出了{FOOD_AMOUNT}单位肉，获得了{GOLD_AMOUNT}{GOLD_ICON}作为回报。" />
+		<string id="AQSTGaveFoodFish" text="你交出了{FOOD_AMOUNT}单位鱼，获得了{GOLD_AMOUNT}{GOLD_ICON}作为回报。" />
+		<string id="AQSTGaveFoodGrain" text="你交出了{FOOD_AMOUNT}单位谷物，获得了{GOLD_AMOUNT}{GOLD_ICON}作为回报。" />
+		<!-- Long Distance Caravan -->
+		<string id="AQ_Y9tybDT" text="前往{DESTINATION}的长途商队" />
+		<string id="AQ_XX5gNZk" text="{ORIGIN}的商人{QUEST_GIVER.NAME}正要派一支满载货物的商队前往遥远的{DESTINATION}，需要一支强大的护卫队全程护送。" />
+		<string id="AQ_wVcaPYi" text="这一带的市场里满是能在{DESTINATION}卖出天价的货物。我把大部分积蓄都押在了一支大商队上，但路途遥远，这么富有的商队会引来沿途所有的强盗。" />
+		<string id="AQ_XZWCGX2" text="长途跋涉需要强大的护卫。你有什么打算？" />
+		<string id="AQ_vhXhJyN" text="护送我的商队一路前往{DESTINATION}。商队会在沿途的城镇停下休息。别让它离开你的视线，保住它的安全。货物卖出后，我会把一半的利润分给你。至少带上{TROOP_COUNT}人，这一路很危险。" />
+		<string id="AQ_ExQRvbj" text="我的人已经准备好了。装车吧。" />
+		<string id="AQ_pEEJxX2" text="听说{QUEST_GIVER.NAME}想把价值连城的货物运到{DESTINATION}。要是有人能挡住强盗，那就是天才之举，否则就是疯了。" />
+		<string id="AQ_pHy3hjk" text="{ORIGIN}的商人{QUEST_GIVER.LINK}为一支前往遥远的{DESTINATION}的商队装载了价值{CARGO_VALUE}{GOLD_ICON}的货物。你已同意全程护送。货物卖出后，{?QUEST_GIVER.GENDER}她{?}他{\?}会把一半的利润分给你。" />
+		<string id="AQ_2aFLWP3" text="{QUEST_GIVER.LINK}的商队抵达了{DESTINATION}，货物卖得{EARNED}{GOLD_ICON}。这趟行程获利{PROFIT}{GOLD_ICON}，你的分成是{SHARE}{GOLD_ICON}。" />
+		<string id="AQ_7DkphCy" text="已经无法安全抵达{OLD_DESTINATION}。商队改为前往{DESTINATION}。" />
+		<string id="AQ_dgTZCFa" text="已经没有能让{QUEST_GIVER.LINK}的商队安全出售货物的城镇了。{?QUEST_GIVER.GENDER}她{?}他{\?}召回了商队，并取消了与你的约定。" />
+		<!-- Fund the Walls -->
+		<string id="AQ_h9vC8AC" text="资助{SETTLEMENT}的城墙" />
+		<string id="AQ_IVFYrru" text="{QUEST_GIVER.NAME}希望加快{SETTLEMENT}的建设工程，但金库缺少钱币。" />
+		<string id="AQ_0Mffnlm" text="{SETTLEMENT}的工匠们干得太慢了。我金库里的每一枚第纳尔都给了在外征战的部下，而石匠可不会为空口承诺干活。" />
+		<string id="AQ_2LPPl97" text="也许我能帮忙。你需要什么？" />
+		<string id="AQ_B4pZqEB" text="把{AMOUNT}{GOLD_ICON}送到{SETTLEMENT}，交给我在那里的管家。有了这笔钱，工程会快得多。如此慷慨，我不会忘记。" />
+		<string id="AQ_Z8hQlbU" text="我会把{AMOUNT}{GOLD_ICON}送到{SETTLEMENT}。" />
+		<string id="AQ_XulpSCr" text="谢谢。我在{SETTLEMENT}的管家会等着你。" />
+		<string id="AQ_wez8WeZ" text="钱送到{SETTLEMENT}了吗？" />
+		<string id="AQ_rmmM5jw" text="还没有。我正在路上。" />
+		<string id="AQ_1t9xD52" text="{SETTLEMENT}的领主{QUEST_GIVER.LINK}请你资助那里的建设工程。前往{SETTLEMENT}，把{AMOUNT}{GOLD_ICON}交给管家。" />
+		<string id="AQ_gwZpb5w" text="交出{AMOUNT}{GOLD_ICON}用于建设工程" />
+		<string id="AQ_sJC2SY2" text="你把{AMOUNT}{GOLD_ICON}交给了{SETTLEMENT}的管家。建设工程将会加快。" />
+		<string id="AQ_XUmYvlU" text="你没能及时把钱送到{SETTLEMENT}。{QUEST_GIVER.LINK}很失望。" />
+		<!-- Donate Elite Rangers -->
+		<string id="AQ_Lk2rP9d" text="{SETTLEMENT}的精锐射手" />
+		<string id="AQ_Wf6bT1x" text="{QUEST_GIVER.NAME}需要{COUNT}名{TROOP}守卫{SETTLEMENT}的城墙。" />
+		<string id="AQ_Zm8cY4h" text="{SETTLEMENT}的城墙有多坚固，全看墙后的弓箭。我的守军需要真正的射手，而不是拿着猎弓的农家子弟，而训练这样的人需要好几年，我没有那么多时间。" />
+		<string id="AQ_Pj3vN6s" text="你需要什么样的人？" />
+		<string id="AQ_Gx5tK8m" text="带{COUNT}名{TROOP}到{SETTLEMENT}，把他们交给守军。我会为此付你{REWARD}{GOLD_ICON}，比你训练他们的花费还多。" />
+		<string id="AQ_Rb1yQ7w" text="我会把{COUNT}名{TROOP}带到{SETTLEMENT}。" />
+		<string id="AQ_Uf2mB8q" text="很好。{SETTLEMENT}的守军指挥官会接收他们。" />
+		<string id="AQ_Ia7sD5r" text="你把{TROOP}带到{SETTLEMENT}了吗？" />
+		<string id="AQ_Oq3nF9k" text="还没有。这样的人可不是每个村子都有。" />
+		<string id="AQ_Cs9dL2f" text="{SETTLEMENT}的领主{QUEST_GIVER.LINK}请你带{COUNT}名{TROOP}到那里的守军。交付后，你将获得{REWARD}{GOLD_ICON}。" />
+		<string id="AQ_Hv3mR8t" text="将{COUNT}名{TROOP}交给守军" />
+		<string id="AQ_Ye4hV7n" text="你把{COUNT}名{TROOP}留在了{SETTLEMENT}的守军中。" />
+		<string id="AQ_Kw6pX3j" text="你没能及时把部队带到{SETTLEMENT}。{QUEST_GIVER.LINK}很失望。" />
+		<string id="AQ_Nq7wE2c" text="你的队伍中需要有{COUNT}名健康的{TROOP}。" />
+	</strings>
+</base>

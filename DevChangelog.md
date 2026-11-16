@@ -1,0 +1,40 @@
+## AQ v1.5.7.0
+
+- Migrated the mod to the shared standard (SDK project, Module Loader, optional MCM, file logger, central texts). No gameplay change.
+- Project: `AdditionalQuestsRedux.csproj` now uses `Bannerlord.BuildResourcesLite.Sdk/1.2.3.41`, `netstandard2.0`, one DLL per game version (`AdditionalQuestsRedux.v<GameVersion>.dll`, `DefineConstants` `v<GameVersion>` label).
+  - Packages: `Bannerlord.ModuleLoader.Injector` 1.0.1.50, `Lib.Harmony` 2.4.2 (was 2.4.3, compile only), `Bannerlord.MCM` 5.13.1 (compile only), `BUTR.Harmony.Analyzer` 1.0.1.50.
+  - Removed `TargetFrameworks`, game `HintPath` references and the old deploy targets.
+  - `Version` 1.5.7.0 (newest game version + release count).
+- `_Module\SubModule.xml`: tokens (`$moduleid$`, `$modulename$`, `$version$`, `$moduleurl$`, `$harmonyversion$`, `$mcmversion$`); `Bannerlord.Harmony` required first; MCM moved from `DependedModules` to an optional `LoadBeforeThis` metadata entry; one SubModule entry `Bannerlord.ModuleLoader.AdditionalQuestsRedux` with `LoaderFilter` `AdditionalQuestsRedux.*.dll`.
+- Settings: MCM loaded → MCM only; otherwise `Modules\AdditionalQuestsRedux\ModConfiguration.xml` only.
+  - New `Data\ModConfiguration.cs` (XmlSerializer POCO; defaults and the size range as consts), `Core\ModSettings.cs` (the only settings access; MCM read live in `NoInlining` methods, XML cached; `Reload()` in `SubModule.OnGameStart`), `_Module\ModConfiguration.xml` (shipped defaults).
+  - XML sections and keys: `Quests` (`AiLordRewardsEnabled`, `VanillaAiLordRewardsEnabled`), `BanditArmy` (`Enabled`, `MinTroopReqDisabled`, `SizeMultiplier` 0.5–5), `MilitiaSpears` / `StarvingTown` / `LongDistanceCaravan` / `FundTheWalls` / `DonateEliteRangers` (`Enabled`), `TechnicalSettings` (`LoggingEnabled`).
+  - `Data\MCMSettings.cs` keeps Id/FolderName `AdditionalQuestsRedux`, FormatType `json` and the property names (players keep their settings); defaults and ranges come from `ModConfiguration`; "Technical settings" group last, `LoggingEnabled` its last entry.
+  - `DebugMessagesEnabled` and `DebugLogFileEnabled` replaced by `LoggingEnabled` (default false).
+  - `Core\QuestRules.cs` reads `ModSettings`; `IsDebugMessagesEnabled` / `IsDebugLogFileEnabled` removed.
+- Logging: the old `Logging.cs` replaced by `Diagnostics\AqLog.cs` (`logs\AdditionalQuestsRedux_yyyyMMdd.log` in the module folder). Warnings always written, debug lines only with `LoggingEnabled`. Nothing goes to the screen anymore.
+  - `LongDistanceCaravanIssueBehavior.Quest.cs` `ThinkAboutSpawningRaiders` (hourly): debug strings built only when `AqLog.IsDebugEnabled`.
+  - `Compat\GhiCompat.cs`: missing GHI methods logged with `AqLog.Warn`. Its debug lines are written only after a campaign start (`Reload` runs later than `TryApply`).
+- Texts: every player-visible string moved to `Core\Texts.cs` (one region per quest, `Texts.Ids` holds the `{=id}English` strings). No `{=` outside `Texts.cs`.
+  - Shared: `CancelWarLog`, `CancelRaidLog`, `QuestGiverLostSettlementLog` (`zS68eOsl`), `WarDeclaredLog` (`JIWVeTMD`), `PlayerDeclaredWarLog` (`bqeWVVEE`), `WithGoldIcon` (moved from `QuestText`; `Core\QuestText.cs` keeps only `WithCharacter`).
+  - Menu option texts are passed as `Texts.Ids.*` strings (`AddGameMenuOption` takes a string); `Texts.AmountVariable`, `CountVariable`, `TroopVariable` and the caravan greeting tags (`HOMETOWN`, `MERCHANT`, `PROTECTOR`) are `internal` because they are set outside `Texts`.
+  - `StarvingTownIssueBehavior.Quest.cs` `SellFood` now takes a `Func<int, int, TextObject>` for the sale log.
+  - Vanilla ids reused with their vanilla text (no rows in our files): `zS68eOsl`, `JIWVeTMD`, `bqeWVVEE`, `d0kbtGYn`, `y62dyzH6`, `MhvyTcrH`, `zk9QyKIz`, `Rd3m5kyk`, `pUrSIed8`, `TdwKwExD`, `vtZYmAaR`, `FpUybbSk`, `ZAqEJI9T`, `heWYa9Oq`, `1IJouNaM`, `WOBy5UfY`, `QNaKmkt9`, `EhxS7NQ4`, `bfPsE9M1`, `OjI8uGFa`, `QDpfYm4c`, `2y9DhzCR`, `u1Pkt4HC`, `o8uAzFaJ`, `0wj3HIbh`.
+  - Text ids: `AQ_tWD2HrQ` now "Technical settings"; `AQ_N5gRw2c` / `AQ_u8LmK4d` reused for "Logging for debugging" (+ hint); `AQ_evXGTko` / `AQ_p3ylOhc` (old debug options) removed from all 13 language files.
+  - Released legacy ids without the `AQ_` form (`AQBA*`, `AQMS*`, `AQST*`, `AQGeneric*`, 64 in total) kept unchanged. All 129 mod ids have a row in all 13 language files.
+- Balance: `Data\QuestBalance.cs` moved to `Core\QuestBalance.cs` (namespace `AdditionalQuestsRedux.Core`). New `LongCaravanStopNoticeExtraMs` = 100 (was a literal).
+- Hot paths: LINQ removed from `BanditArmyIssueBehavior.Quest.cs` and `LongDistanceCaravanIssueBehavior.Quest.cs`. `OnMapEventEnded` uses for-i helpers over `MapEventSide.Parties` instead of `InvolvedParties.Contains`; `FindBanditClan` loops instead of `FirstOrDefault` (same first match).
+- `Core\ModInfo.cs`: `ModuleId` (also the Harmony id), file and folder names, module root (DLL folder `..\..`).
+- Changelog: `_Module\AQ_Changelog.txt` renamed to `_Module\Changelog.txt`; this file added.
+- Added `.github\copilot-instructions.md` and updated `FEATURES.md` and `NexusDescription.txt`.
+- 1.5.7 differences (`#if LOWER_THAN_1_5`):
+  - `Behaviors\BanditArmyIssueBehavior.Quest.cs` `QuestAcceptedConsequences`: `Hideout.IsSpotted = true` only on 1.4.7 / 1.4.8 (removed in 1.5.7). `Settlement.IsVisible = true` (all versions) marks the hideout on 1.5.7.
+  - Every other vanilla API the mod calls was checked against the 1.5.7 source: no differences. That includes the issue/quest base classes, campaign events, dialogs, menus, garrison and party APIs, and the `RewardGold` reflection in `VanillaAiLordRewardsBehavior`.
+- Save compatibility: none. No SyncData, `QuestSaveDefiner` ids unchanged, behavior and nested class names unchanged.
+- To test:
+  - Build: delete `bin\` and `obj\` first, then run `..\Build-AllVersions.ps1`.
+  - With MCM: the settings menu and old settings kept.
+  - Without MCM: `ModConfiguration.xml` is created, read, clamped and rewritten.
+  - The log file with `LoggingEnabled` on and off.
+  - Each quest on 1.5.7 and 1.4.8, especially the Bandit Army hideout reveal on 1.5.7.
+  - An old save; GHI compat.

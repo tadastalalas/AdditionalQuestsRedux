@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+	<tags>
+		<tag language="Русский" />
+	</tags>
+	<strings>
+		<!-- MCM settings -->
+		<string id="AQ_Rw7pL2x" text="Задания" />
+		<string id="AQ_b8NfQ4m" text="Армия бандитов" />
+		<string id="AQ_Hq5vD1s" text="Копья для ополчения" />
+		<string id="AQ_y2GcX7k" text="Голодающий город" />
+		<string id="AQ_ShuaUUm" text="Дальний караван" />
+		<string id="AQ_7wmctzL" text="Средства на стены" />
+		<string id="AQ_dR9kq2V" text="Подарить элитных стрелков" />
+		<string id="AQ_tWD2HrQ" text="Технические настройки" />
+		<string id="AQ_Pm4tZ8w" text="Задание включено" />
+		<string id="AQ_k3Tz9Qe" text="Дополнительные задания Redux" />
+		<string id="AQ_e9JrB3n" text="Позволяет знатным жителям деревень предлагать задание «Армия бандитов». Уже предложенные или принятые задания не затрагиваются. [По умолчанию: включено]" />
+		<string id="AQ_V6hW1yd" text="Убрать минимум войск" />
+		<string id="AQ_s3KxM5q" text="Убирает требование иметь не менее 50 воинов, чтобы начать задание «Армия бандитов». [По умолчанию: выключено]" />
+		<string id="AQ_C7uN2fa" text="Размер армии бандитов" />
+		<string id="AQ_j4QbT9r" text="Изменяет размер отряда армии бандитов. Действует на армии бандитов, появившиеся после изменения. [По умолчанию: 100%]" />
+		<string id="AQ_Lz8eY3p" text="Позволяет знатным жителям деревень предлагать задание «Копья для ополчения». Уже предложенные или принятые задания не затрагиваются. [По умолчанию: включено]" />
+		<string id="AQ_f1XdR6v" text="Позволяет городским торговцам предлагать задание «Голодающий город». Уже предложенные или принятые задания не затрагиваются. [По умолчанию: включено]" />
+		<string id="AQ_kdH4PaP" text="Позволяет городским торговцам предлагать задание «Дальний караван». Уже предложенные или принятые задания не затрагиваются. [По умолчанию: включено]" />
+		<string id="AQ_Rp85ntf" text="Позволяет лордам предлагать задание «Средства на стены» для своих городов и замков. Уже предложенные или принятые задания не затрагиваются. [По умолчанию: включено]" />
+		<string id="AQ_Tr4nGrs" text="Позволяет лордам предлагать задание «Подарить элитных стрелков» для своих городов и замков. Уже предложенные или принятые задания не затрагиваются. [По умолчанию: включено]" />
+		<string id="AQ_N5gRw2c" text="Логирование для отладки" />
+		<string id="AQ_u8LmK4d" text="Логирование для отладки (только на английском). [По умолчанию: отключено]" />
+		<string id="AQ_Xk4mT9b" text="Лорды ИИ получают награды за задания" />
+		<string id="AQ_q7RzW2n" text="Когда лорд ИИ выполняет одно из этих заданий, он получает золото, известность и отношения, которые получил бы игрок, а деревня или город получает те же преимущества. [По умолчанию: включено]" />
+		<string id="AQ_Vd3nH8s" text="Лорды ИИ получают награды за стандартные задания" />
+		<string id="AQ_g6PwK1z" text="Когда лорд ИИ выполняет стандартное задание игры, он получает награду золотом за задание, немного известности и улучшает отношения с заказчиком, а заказчик становится влиятельнее. [По умолчанию: включено]" />
+		<!-- Shared by several quests -->
+		<string id="AQGenericCancelWarLog" text="Ваш клан теперь воюет с сеньором, которому служит {ISSUE_GIVER.LINK}. Ваше соглашение с {ISSUE_GIVER.LINK} отменено." />
+		<string id="AQGenericCancelRaidLog" text="Поселение {SETTLEMENT_NAME} разграблено кем-то другим. Ваше соглашение с {ISSUE_GIVER.LINK} отменено." />
+		<!-- Bandit Army -->
+		<string id="AQBATitle" text="Армия бандитов идёт на {ISSUE_SETTLEMENT}!" />
+		<string id="AQBADescription" text="Армия бандитов идёт грабить {ISSUE_SETTLEMENT}. Жителям {ISSUE_SETTLEMENT} нужна помощь, чтобы защитить себя." />
+		<string id="AQBAIssueBrief" text="До нас дошли страшные вести: разведчики говорят, что армия всякого сброда во главе с самозваным бандитским «королём» прямо сейчас движется к нашей деревне, чтобы забрать всё, что у нас есть. Мы уже послали весть нашим знатным господам, но боюсь, к их приходу будет слишком поздно." />
+		<string id="AQBAIssueAccept" text="Тревожные вести. Как вы собираетесь защищаться?" />
+		<string id="AQBAIssueSolution" text="Наше ополчение будет сражаться за свои дома, но чем больше нас, тем лучше. Враг в основном будет сбродом, обычными грабителями, ищущими лёгкой наживы, но среди них будут и бандиты получше обученные. Поможете нам защитить деревню?" />
+		<string id="AQBAIssueSolutionAccept" text="Да, я помогу защитить деревню." />
+		<string id="AQBARumor" text="Говорят, прямо сейчас сюда идёт армия бандитов! Нужно бежать, или прятаться, или... что угодно, только не оставаться здесь! Прошу, помогите нам!" />
+		<string id="AQBAQuestAcceptLog" text="Деревню {QUEST_SETTLEMENT} вот-вот разграбит армия бандитов из ближайшего логова! {QUEST_GIVER.LINK} {?QUEST_GIVER.GENDER}попросила{?}попросил{\?} вас не дать бандитам разорить деревню.{newline}{newline}Не дайте бандитам добраться до {QUEST_SETTLEMENT}." />
+		<string id="AQBABanditRaidingLog" text="Армия бандитов грабит {QUEST_SETTLEMENT}! Защитите жителей!" />
+		<string id="AQBASuccessLog" text="Вы разбили армию бандитов, которая собиралась разграбить {QUEST_SETTLEMENT}. Жители очень благодарны. Фракция, владеющая деревней, наградила вас за её защиту." />
+		<string id="AQBAFailureLog" text="Вам не удалось остановить армию бандитов. Бандиты разорили {QUEST_SETTLEMENT} и ушли." />
+		<string id="AQBATimeoutLog" text="Вы слишком долго не могли разбить армию бандитов. К счастью, знать, владеющая {QUEST_SETTLEMENT}, успела отреагировать вовремя. Ваше соглашение отменено." />
+		<string id="AQ_T07dYvH" text="Армию бандитов, шедшую на {QUEST_SETTLEMENT}, уничтожил кто-то другой. Ваше соглашение с {QUEST_GIVER.LINK} отменено." />
+		<string id="AQBAOfferDialog" text="Спасибо. Бандиты идут из логова неподалёку. Мои разведчики покажут вам, где оно. Мы будем молиться за ваш успех." />
+		<string id="AQBADiscussDialogStart" text="Думаю, ждать осталось недолго. Надеюсь, вы успеете их остановить." />
+		<string id="AQBADiscussDialogTalk" text="Не беспокойтесь, мы раздавим их «армию»." />
+		<string id="AQBADiscussDialogFinish" text="Хорошо, хорошо. Ещё раз спасибо." />
+		<string id="AQBABanditConfront" text="Ты ещё кто, чёрт возьми? Это тут армия, мы идём в деревню собирать «налоги». Если жизнь дорога, не стой у нас на пути!" />
+		<string id="AQBABanditConfrontResponse" text="Не грабить вам здесь больше, мы пришли вас остановить!" />
+		<string id="AQBADirection" text="Направление к бандитам" />
+		<string id="AQBABanditHideoutMarked" text="{QUEST_GIVER.NAME} отмечает на карте логово бандитов. Оттуда армия бандитов двинется к деревне." />
+		<string id="AQBABanditArmyName" text="Армия: {BANDIT_CULTURE}" />
+		<!-- Militia Spears -->
+		<string id="AQMSTitle" text="{ISSUE_SETTLEMENT}: ополчению нужны копья" />
+		<string id="AQMSDescription" text="Старосте деревни {ISSUE_SETTLEMENT} нужны копья для ополчения." />
+		<string id="AQMSIssueBrief" text="Сейчас я собираю деревенское ополчение, но нам не хватает оружия, чтобы учиться и сражаться. Особенно мало в оружейной копий." />
+		<string id="AQMSIssueAccept" text="Чем я могу помочь?" />
+		<string id="AQMSIssueSolution" text="С обучением своих людей я справлюсь, но мне нужен кто-то, кто найдёт копья для боя. Их можно купить в окрестных городах. А если вы умелый кузнец, можете даже выковать их сами. Всего нам нужно копий: {SPEARS_AMOUNT}. Я заплачу вам {REWARD_AMOUNT}{GOLD_ICON} за копья." />
+		<string id="AQMSIssueSolutionAccept" text="Я найду нужные вам копья." />
+		<string id="AQMSRumor" text="Вся деревенская молодёжь записалась в новое ополчение. Но говорят, у {QUEST_GIVER.NAME} копий не хватает даже на половину мужчин, так что они учатся с деревянными палками. Надеюсь, им не придётся драться этими же палками в настоящем бою!" />
+		<string id="AQMSQuestAcceptLog" text="{QUEST_GIVER.LINK}, староста деревни {QUEST_SETTLEMENT}, {?QUEST_GIVER.GENDER}попросила{?}попросил{\?} вас доставить {?QUEST_GIVER.GENDER}ей{?}ему{\?} копья ({SPEARS_AMOUNT} шт.) для деревенского ополчения. Это поможет увеличить число боеспособных ополченцев в деревне.{newline}{newline}Вы согласились как можно скорее привезти копья ({SPEARS_AMOUNT} шт.). За копья вам заплатят {REWARD_AMOUNT}{GOLD_ICON}.{newline}{newline}Копья должны быть одноручным древковым оружием." />
+		<string id="AQMSHasSpearsLog" text="Теперь у вас достаточно копий, чтобы выполнить задание. Вернитесь в {QUEST_SETTLEMENT}, чтобы передать их." />
+		<string id="AQMSHaveSpearsLog" text="У вас достаточно копий, чтобы выполнить задание. Вернитесь в {QUEST_SETTLEMENT}, чтобы передать их." />
+		<string id="AQMSTimeoutLog" text="Вам не удалось доставить жителям копья ({SPEARS_AMOUNT} шт.). Они не смогут как следует обучить своё ополчение. Староста разочарован." />
+		<string id="AQMSSuccessLog" text="Вы доставили жителям копья ({SPEARS_AMOUNT} шт.). Их ополчение готово учиться и защищать деревню. Староста и жители благодарны вам." />
+		<string id="AQMSThankYouDialog" text="Спасибо, {?PLAYER.GENDER}госпожа{?}господин{\?}! Эти копья нам очень пригодятся." />
+		<string id="AQMSWaitingDialog" text="Мы ждём эти копья, {?PLAYER.GENDER}госпожа{?}господин{\?}." />
+		<string id="AQMSDiscussDialog" text="Вы привезли копья ({SPEARS_AMOUNT} шт.)?" />
+		<string id="AQMSHandOverDialog" text="Да. Вот они." />
+		<string id="AQMSNotYetDialog" text="Я над этим работаю." />
+		<string id="AQMSNotEnoughSpears" text="У вас недостаточно копий." />
+		<string id="AQMSQuestObjective" text="Соберите одноручное древковое оружие" />
+		<!-- Starving Town -->
+		<string id="AQSTitle" text="Голод в {ISSUE_SETTLEMENT}" />
+		<string id="AQSTDescription" text="Город {SETTLEMENT} голодает, и {MERCHANT_NAME} нужна помощь, чтобы пополнить городские запасы еды." />
+		<string id="AQSTIssueBrief" text="С едой всё плохо, город голодает. Нам пришлось ввести пайки на всё продовольствие, что приходит в город, но с каждым днём всё труднее накормить людей. Если так продлится ещё долго, мы либо все умрём с голоду, либо народ поднимет бунт." />
+		<string id="AQSTIssueAccept" text="Могу ли я помочь? У меня есть немного лишней еды." />
+		<string id="AQSTIssueSolution" text="Благодарю за доброту, но нам понадобится гораздо больше еды, чтобы снабдить город, — достаточно, чтобы продержаться, пока мы разбираемся с причиной нехватки. Если вы привезёте зерно, мясо и рыбу, я заплачу втрое больше средней цены за каждый товар. Всего, чтобы прокормить город, нам нужно не меньше {FOOD_AMOUNT} ед. еды." />
+		<string id="AQSTIssueSolutionAccept" text="Я отправлюсь искать еду для города." />
+		<string id="AQSTRumor" text="Как же хочется есть... ой, простите, нечаянно вышло. Так тяжело в последнее время... Во рту так давно ни крошки... Если бы кто-нибудь помог {QUEST_GIVER.NAME} привезти в город побольше еды..." />
+		<string id="AQSTQuestAcceptLog" text="{QUEST_GIVER.LINK}, {?QUEST_GIVER.GENDER}торговка{?}торговец{\?} из города {QUEST_SETTLEMENT}, {?QUEST_GIVER.GENDER}попросила{?}попросил{\?} вас доставить в город {FOOD_AMOUNT} ед. еды, чтобы помочь справиться с нынешним голодом. Подойдёт зерно, мясо или рыба.{newline}{newline}При доставке вам заплатят втрое больше средней цены за каждый товар." />
+		<string id="AQSTHasFoodLog" text="Теперь у вас достаточно еды, чтобы выполнить задание. Вернитесь в {QUEST_SETTLEMENT}, чтобы передать её." />
+		<string id="AQSTHaveFoodLog" text="У вас достаточно еды, чтобы выполнить задание. Вернитесь в {QUEST_SETTLEMENT}, чтобы передать её." />
+		<string id="AQSTTimeoutLog" text="Вам не удалось доставить {FOOD_AMOUNT} ед. еды в {QUEST_SETTLEMENT}. Люди продолжают голодать, а {QUEST_GIVER.LINK} {?QUEST_GIVER.GENDER}разочарована{?}разочарован{\?}." />
+		<string id="AQSTSuccessLog" text="Вы доставили {FOOD_AMOUNT} ед. еды в {QUEST_SETTLEMENT}. Люди ликуют, получив еду. Вы спасли народ от голодной смерти." />
+		<string id="AQSTThankYouDialog" text="Спасибо, {?PLAYER.GENDER}госпожа{?}господин{\?}! Эта еда поможет всем нам." />
+		<string id="AQSTWaitingDialog" text="Мы ждём припасы, {?PLAYER.GENDER}госпожа{?}господин{\?}." />
+		<string id="AQSTDiscussDialog" text="Вы привезли {FOOD_AMOUNT} ед. еды?" />
+		<string id="AQSTHandOverDialog" text="Да. Вот она." />
+		<string id="AQSTNotYetDialog" text="Я над этим работаю." />
+		<string id="AQSTNotEnoughFood" text="У вас недостаточно еды." />
+		<string id="AQSTQuestObjective" text="Соберите зерно/рыбу/мясо." />
+		<string id="AQSTGaveFoodMeat" text="Вы отдали мясо ({FOOD_AMOUNT} ед.). Взамен вы получили {GOLD_AMOUNT}{GOLD_ICON}." />
+		<string id="AQSTGaveFoodFish" text="Вы отдали рыбу ({FOOD_AMOUNT} ед.). Взамен вы получили {GOLD_AMOUNT}{GOLD_ICON}." />
+		<string id="AQSTGaveFoodGrain" text="Вы отдали зерно ({FOOD_AMOUNT} ед.). Взамен вы получили {GOLD_AMOUNT}{GOLD_ICON}." />
+		<!-- Long Distance Caravan -->
+		<string id="AQ_Y9tybDT" text="Дальний караван: {DESTINATION}" />
+		<string id="AQ_XX5gNZk" text="{QUEST_GIVER.NAME}, {?QUEST_GIVER.GENDER}торговка{?}торговец{\?} из города {ORIGIN}, отправляет тяжело гружёный караван в далёкий город {DESTINATION}, и {?QUEST_GIVER.GENDER}ей{?}ему{\?} нужна сильная охрана на весь путь." />
+		<string id="AQ_wVcaPYi" text="Местные рынки полны товаров, за которые в городе {DESTINATION} дают целое состояние. Я вкладываю почти все сбережения в один большой караван, но путь долгий, а такой богатый караван притянет всех разбойников на дороге." />
+		<string id="AQ_XZWCGX2" text="Долгий путь требует сильной охраны. Что вы предлагаете?" />
+		<string id="AQ_vhXhJyN" text="Сопроводите мой караван до самого города {DESTINATION}. По пути он будет останавливаться в городах на отдых. Не упускайте его из виду и сберегите его. Когда товары будут проданы, я отдам вам половину прибыли. Возьмите не меньше {TROOP_COUNT} человек, дорога опасна." />
+		<string id="AQ_ExQRvbj" text="Мои люди готовы. Грузите повозки." />
+		<string id="AQ_pEEJxX2" text="Говорят, {QUEST_GIVER.NAME} хочет отправить в город {DESTINATION} товаров на целое состояние. Безумие или гениальность — если кто-то сумеет отогнать разбойников." />
+		<string id="AQ_pHy3hjk" text="{QUEST_GIVER.LINK}, {?QUEST_GIVER.GENDER}торговка{?}торговец{\?} из города {ORIGIN}, отправляет караван с товарами на {CARGO_VALUE}{GOLD_ICON} в далёкий город {DESTINATION}. Вы согласились сопровождать его на всём пути. Когда товары будут проданы, вы получите половину прибыли." />
+		<string id="AQ_2aFLWP3" text="Караван прибыл в город {DESTINATION} и продал товары за {EARNED}{GOLD_ICON}. Поездка принесла {PROFIT}{GOLD_ICON} прибыли. {QUEST_GIVER.LINK} передаёт вам вашу долю: {SHARE}{GOLD_ICON}." />
+		<string id="AQ_7DkphCy" text="До города {OLD_DESTINATION} больше нельзя безопасно добраться. Караван направляется в город {DESTINATION}." />
+		<string id="AQ_dgTZCFa" text="Не осталось ни одного города, где караван мог бы безопасно продать товары. {QUEST_GIVER.LINK} отзывает караван и расторгает ваш договор." />
+		<!-- Fund the Walls -->
+		<string id="AQ_h9vC8AC" text="Средства на стены: {SETTLEMENT}" />
+		<string id="AQ_IVFYrru" text="{QUEST_GIVER.NAME} хочет ускорить строительство в {SETTLEMENT}, но в казне не хватает денег." />
+		<string id="AQ_0Mffnlm" text="Строители в {SETTLEMENT} работают слишком медленно. Каждый денар из моей казны уходит моим людям в походе, а каменщики не работают за обещания." />
+		<string id="AQ_2LPPl97" text="Возможно, я смогу помочь. Что вам нужно?" />
+		<string id="AQ_B4pZqEB" text="Отвезите {AMOUNT}{GOLD_ICON} в {SETTLEMENT} и передайте моему управляющему. С этими деньгами работы пойдут гораздо быстрее. Я не забуду такой щедрости." />
+		<string id="AQ_Z8hQlbU" text="Я доставлю {AMOUNT}{GOLD_ICON} в {SETTLEMENT}." />
+		<string id="AQ_XulpSCr" text="Благодарю. Мой управляющий в {SETTLEMENT} будет вас ждать." />
+		<string id="AQ_wez8WeZ" text="Деньги уже прибыли в {SETTLEMENT}?" />
+		<string id="AQ_rmmM5jw" text="Пока нет. Я в пути." />
+		<string id="AQ_1t9xD52" text="{QUEST_GIVER.LINK}, {?QUEST_GIVER.GENDER}владелица{?}владелец{\?} {SETTLEMENT}, просит вас оплатить строительные работы. Отправляйтесь в {SETTLEMENT} и передайте управляющему {AMOUNT}{GOLD_ICON}." />
+		<string id="AQ_gwZpb5w" text="Передать {AMOUNT}{GOLD_ICON} на строительные работы" />
+		<string id="AQ_sJC2SY2" text="Вы передали {AMOUNT}{GOLD_ICON} управляющему {SETTLEMENT}. Теперь строительство пойдёт быстрее." />
+		<string id="AQ_XUmYvlU" text="Вы не доставили деньги в {SETTLEMENT} вовремя. {QUEST_GIVER.LINK} {?QUEST_GIVER.GENDER}разочарована{?}разочарован{\?}." />
+		<!-- Donate Elite Rangers -->
+		<string id="AQ_Lk2rP9d" text="Элитные стрелки для {SETTLEMENT}" />
+		<string id="AQ_Wf6bT1x" text="{QUEST_GIVER.NAME} нужно {COUNT} бойцов типа «{TROOP}» для защиты стен {SETTLEMENT}." />
+		<string id="AQ_Zm8cY4h" text="Стены {SETTLEMENT} крепки лишь настолько, насколько хороши луки за ними. Моему гарнизону нужны настоящие стрелки, а не крестьянские сыновья с охотничьими луками, а на обучение таких людей уходят годы, которых у меня нет." />
+		<string id="AQ_Pj3vN6s" text="Какие люди вам нужны?" />
+		<string id="AQ_Gx5tK8m" text="Приведите {COUNT} бойцов типа «{TROOP}» в {SETTLEMENT} и оставьте их в гарнизоне. Я заплачу вам за них {REWARD}{GOLD_ICON} — больше, чем вам стоило их обучение." />
+		<string id="AQ_Rb1yQ7w" text="Я приведу {COUNT} бойцов типа «{TROOP}» в {SETTLEMENT}." />
+		<string id="AQ_Uf2mB8q" text="Хорошо. Командир гарнизона в {SETTLEMENT} их примет." />
+		<string id="AQ_Ia7sD5r" text="Бойцы типа «{TROOP}» уже в {SETTLEMENT}?" />
+		<string id="AQ_Oq3nF9k" text="Пока нет. Таких людей не найти в каждой деревне." />
+		<string id="AQ_Cs9dL2f" text="{QUEST_GIVER.LINK}, {?QUEST_GIVER.GENDER}владелица{?}владелец{\?} {SETTLEMENT}, просит вас привести {COUNT} бойцов типа «{TROOP}» в местный гарнизон. После передачи вы получите {REWARD}{GOLD_ICON}." />
+		<string id="AQ_Hv3mR8t" text="Передать гарнизону {COUNT} бойцов типа «{TROOP}»" />
+		<string id="AQ_Ye4hV7n" text="Вы оставили {COUNT} бойцов типа «{TROOP}» в гарнизоне {SETTLEMENT}." />
+		<string id="AQ_Kw6pX3j" text="Вы не привели войска в {SETTLEMENT} вовремя. {QUEST_GIVER.LINK} {?QUEST_GIVER.GENDER}разочарована{?}разочарован{\?}." />
+		<string id="AQ_Nq7wE2c" text="В вашем отряде должно быть {COUNT} здоровых бойцов типа «{TROOP}»." />
+	</strings>
+</base>

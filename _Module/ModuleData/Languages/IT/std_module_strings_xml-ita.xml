@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+	<tags>
+		<tag language="Italiano" />
+	</tags>
+	<strings>
+		<!-- MCM settings -->
+		<string id="AQ_Rw7pL2x" text="Missioni" />
+		<string id="AQ_b8NfQ4m" text="Esercito di banditi" />
+		<string id="AQ_Hq5vD1s" text="Lance per la milizia" />
+		<string id="AQ_y2GcX7k" text="Città affamata" />
+		<string id="AQ_ShuaUUm" text="Carovana a lunga distanza" />
+		<string id="AQ_7wmctzL" text="Finanziare le mura" />
+		<string id="AQ_dR9kq2V" text="Donare tiratori scelti" />
+		<string id="AQ_tWD2HrQ" text="Impostazioni tecniche" />
+		<string id="AQ_Pm4tZ8w" text="Missione attivata" />
+		<string id="AQ_k3Tz9Qe" text="Missioni Aggiuntive Redux" />
+		<string id="AQ_e9JrB3n" text="Permette ai notabili dei villaggi di offrire la missione &quot;Esercito di banditi&quot;. Le missioni già offerte o accettate non vengono modificate. [Predefinito: attivato]" />
+		<string id="AQ_V6hW1yd" text="Rimuovi il minimo di truppe" />
+		<string id="AQ_s3KxM5q" text="Rimuove il requisito minimo di 50 truppe per avviare la missione &quot;Esercito di banditi&quot;. [Predefinito: disattivato]" />
+		<string id="AQ_C7uN2fa" text="Dimensione dell'esercito di banditi" />
+		<string id="AQ_j4QbT9r" text="Modifica la dimensione dell'esercito di banditi. Si applica agli eserciti di banditi generati dopo la modifica. [Predefinito: 100%]" />
+		<string id="AQ_Lz8eY3p" text="Permette ai notabili dei villaggi di offrire la missione &quot;Lance per la milizia&quot;. Le missioni già offerte o accettate non vengono modificate. [Predefinito: attivato]" />
+		<string id="AQ_f1XdR6v" text="Permette ai mercanti delle città di offrire la missione &quot;Città affamata&quot;. Le missioni già offerte o accettate non vengono modificate. [Predefinito: attivato]" />
+		<string id="AQ_kdH4PaP" text="Permette ai mercanti delle città di offrire la missione &quot;Carovana a lunga distanza&quot;. Le missioni già offerte o accettate non vengono modificate. [Predefinito: attivato]" />
+		<string id="AQ_Rp85ntf" text="Permette ai signori di offrire la missione &quot;Finanziare le mura&quot; per le loro città e castelli. Le missioni già offerte o accettate non vengono modificate. [Predefinito: attivato]" />
+		<string id="AQ_Tr4nGrs" text="Permette ai signori di offrire la missione &quot;Donare tiratori scelti&quot; per le loro città e castelli. Le missioni già offerte o accettate non vengono modificate. [Predefinito: attivato]" />
+		<string id="AQ_N5gRw2c" text="Registrazione per il debug" />
+		<string id="AQ_u8LmK4d" text="Registrazione per il debug (solo in inglese). [Predefinito: disabilitato]" />
+		<string id="AQ_Xk4mT9b" text="I lord dell'IA ricevono le ricompense delle missioni" />
+		<string id="AQ_q7RzW2n" text="Quando un lord dell'IA risolve una di queste missioni, riceve l'oro, la fama e la relazione che otterrebbe un giocatore, e il villaggio o la città ottiene gli stessi benefici. [Predefinito: attivato]" />
+		<string id="AQ_Vd3nH8s" text="I lord dell'IA ricevono le ricompense delle missioni base" />
+		<string id="AQ_g6PwK1z" text="Quando un lord dell'IA risolve una missione del gioco base, riceve la ricompensa in oro della missione, un po' di fama e una relazione migliore con chi ha dato la missione, che a sua volta guadagna potere. [Predefinito: attivato]" />
+		<!-- Shared by several quests -->
+		<string id="AQGenericCancelWarLog" text="Il tuo clan è ora in guerra con il signore di {ISSUE_GIVER.LINK}. Il tuo accordo con {ISSUE_GIVER.LINK} è stato annullato." />
+		<string id="AQGenericCancelRaidLog" text="{SETTLEMENT_NAME} è stato razziato da qualcun altro. Il tuo accordo con {ISSUE_GIVER.LINK} è stato annullato." />
+		<!-- Bandit Army -->
+		<string id="AQBATitle" text="Un esercito di banditi marcia su {ISSUE_SETTLEMENT}!" />
+		<string id="AQBADescription" text="Un esercito di banditi si sta dirigendo verso {ISSUE_SETTLEMENT} per razziarlo. Gli abitanti di {ISSUE_SETTLEMENT} hanno bisogno di aiuto per difendersi." />
+		<string id="AQBAIssueBrief" text="Mi sono giunte notizie terribili: i miei esploratori dicono che un esercito di marmaglia guidato da un sedicente &quot;re&quot; dei banditi sta marciando proprio ora verso il nostro villaggio, deciso a prenderci tutto ciò che abbiamo. Ho chiesto aiuto ai nostri nobili, ma temo che quando arriveranno sarà troppo tardi." />
+		<string id="AQBAIssueAccept" text="Sono notizie preoccupanti. Come pensate di difendervi?" />
+		<string id="AQBAIssueSolution" text="La nostra milizia combatterà per le nostre case, ma più siamo e meglio è. Il nemico sarà composto per lo più da marmaglia, semplici predoni in cerca di soldi facili, ma ci saranno anche alcuni banditi meglio addestrati. Ci aiuterai a difendere il villaggio?" />
+		<string id="AQBAIssueSolutionAccept" text="Sì, vi aiuterò a difendere il villaggio." />
+		<string id="AQBARumor" text="Ho sentito che un esercito di banditi sta arrivando qui proprio ora! Dobbiamo fuggire, o nasconderci, o... qualsiasi cosa tranne restare qui! Ti prego, devi aiutarci!" />
+		<string id="AQBAQuestAcceptLog" text="Il villaggio di {QUEST_SETTLEMENT} sta per essere razziato da un esercito di banditi proveniente da un covo vicino! {QUEST_GIVER.LINK} ti ha chiesto di impedire ai banditi di devastare il villaggio.{newline}{newline}Impedisci ai banditi di raggiungere {QUEST_SETTLEMENT}." />
+		<string id="AQBABanditRaidingLog" text="L'esercito di banditi sta razziando {QUEST_SETTLEMENT}! Proteggi gli abitanti!" />
+		<string id="AQBASuccessLog" text="Hai sconfitto l'esercito di banditi che stava per razziare {QUEST_SETTLEMENT}. Gli abitanti ti sono molto grati. La fazione che governa il villaggio ti ha assegnato una taglia per averlo difeso." />
+		<string id="AQBAFailureLog" text="Non hai fermato l'esercito di banditi. I banditi hanno devastato {QUEST_SETTLEMENT} e se ne sono andati." />
+		<string id="AQBATimeoutLog" text="Hai impiegato troppo tempo a sconfiggere l'esercito di banditi. Per fortuna, i nobili che governano {QUEST_SETTLEMENT} sono riusciti a intervenire in tempo. Il tuo accordo è stato annullato." />
+		<string id="AQ_T07dYvH" text="L'esercito di banditi diretto a {QUEST_SETTLEMENT} è stato distrutto da qualcun altro. Il tuo accordo con {QUEST_GIVER.LINK} è stato annullato." />
+		<string id="AQBAOfferDialog" text="Grazie. I banditi arrivano da un covo qui vicino. I miei esploratori ti mostreranno dove si trova. Pregheremo per il tuo successo." />
+		<string id="AQBADiscussDialogStart" text="Non credo che manchi molto ormai. Spero che tu riesca a fermarli in tempo." />
+		<string id="AQBADiscussDialogTalk" text="Non preoccuparti, schiacceremo il loro &quot;esercito&quot;." />
+		<string id="AQBADiscussDialogFinish" text="Bene, bene. Grazie ancora." />
+		<string id="AQBABanditConfront" text="E tu chi diavolo sei? Questo qui è un esercito, stiamo andando in un villaggio a riscuotere un po' di &quot;tasse&quot;. Se sai cosa ti conviene, levati di mezzo!" />
+		<string id="AQBABanditConfrontResponse" text="Non razzierete niente da queste parti tanto presto, siamo qui per fermarvi!" />
+		<string id="AQBADirection" text="Direzione verso i banditi" />
+		<string id="AQBABanditHideoutMarked" text="{QUEST_GIVER.NAME} ha segnato il covo dei banditi. L'esercito di banditi partirà da lì verso il villaggio." />
+		<string id="AQBABanditArmyName" text="Esercito: {BANDIT_CULTURE}" />
+		<!-- Militia Spears -->
+		<string id="AQMSTitle" text="{ISSUE_SETTLEMENT} ha bisogno di lance per la milizia" />
+		<string id="AQMSDescription" text="Il capovillaggio di {ISSUE_SETTLEMENT} ha bisogno di lance per la milizia." />
+		<string id="AQMSIssueBrief" text="Sto organizzando la milizia del villaggio, ma ci mancano le armi per addestrarci e combattere. In particolare, abbiamo pochissime lance nell'armeria." />
+		<string id="AQMSIssueAccept" text="Come posso aiutare?" />
+		<string id="AQMSIssueSolution" text="Posso occuparmi io di addestrare la mia gente come miliziani, ma mi serve qualcuno che trovi delle lance con cui combattere. Puoi comprarle nelle città vicine. Puoi persino forgiarle da te, se te la cavi alla forgia. Ci serviranno {SPEARS_AMOUNT} lance in tutto. Ti pagherò {REWARD_AMOUNT}{GOLD_ICON} per le lance." />
+		<string id="AQMSIssueSolutionAccept" text="Troverò le lance che vi servono." />
+		<string id="AQMSRumor" text="I giovani del villaggio si sono arruolati tutti nella nuova milizia. Ma ho sentito che {QUEST_GIVER.NAME} non ha lance nemmeno per metà degli uomini, così si addestrano con dei bastoni di legno. Spero che non debbano usare quegli stessi bastoni in un vero combattimento!" />
+		<string id="AQMSQuestAcceptLog" text="{QUEST_GIVER.LINK}, {?QUEST_GIVER.GENDER}la capovillaggio{?}il capovillaggio{\?} di {QUEST_SETTLEMENT}, ti ha chiesto di consegnar{?QUEST_GIVER.GENDER}le{?}gli{\?} {SPEARS_AMOUNT} lance per la milizia del villaggio. Questo aiuterà ad aumentare il numero di miliziani abili nel villaggio.{newline}{newline}Hai accettato di portare {SPEARS_AMOUNT} lance il prima possibile. Riceverai {REWARD_AMOUNT}{GOLD_ICON} per le lance.{newline}{newline}Le lance devono essere armi in asta a una mano." />
+		<string id="AQMSHasSpearsLog" text="Ora hai abbastanza lance per completare la missione. Torna a {QUEST_SETTLEMENT} per consegnarle." />
+		<string id="AQMSHaveSpearsLog" text="Hai abbastanza lance per completare la missione. Torna a {QUEST_SETTLEMENT} per consegnarle." />
+		<string id="AQMSTimeoutLog" text="Non hai consegnato in tempo {SPEARS_AMOUNT} lance agli abitanti. Non potranno addestrare adeguatamente la loro milizia. Il capovillaggio è deluso." />
+		<string id="AQMSSuccessLog" text="Hai consegnato {SPEARS_AMOUNT} lance agli abitanti. La loro milizia è pronta ad addestrarsi e a difendere il villaggio. Il capovillaggio e gli abitanti ti sono grati." />
+		<string id="AQMSThankYouDialog" text="Grazie, {?PLAYER.GENDER}mia signora{?}signore{\?}! Faremo buon uso di queste lance." />
+		<string id="AQMSWaitingDialog" text="Attendiamo quelle lance, {?PLAYER.GENDER}mia signora{?}signore{\?}." />
+		<string id="AQMSDiscussDialog" text="Hai portato {SPEARS_AMOUNT} lance?" />
+		<string id="AQMSHandOverDialog" text="Sì. Eccole." />
+		<string id="AQMSNotYetDialog" text="Ci sto lavorando." />
+		<string id="AQMSNotEnoughSpears" text="Non hai abbastanza lance." />
+		<string id="AQMSQuestObjective" text="Raccogli armi in asta a una mano" />
+		<!-- Starving Town -->
+		<string id="AQSTitle" text="Crisi alimentare a {ISSUE_SETTLEMENT}" />
+		<string id="AQSTDescription" text="La città di {SETTLEMENT} sta morendo di fame: {MERCHANT_NAME} ha bisogno di aiuto per rifornire le scorte di cibo della città." />
+		<string id="AQSTIssueBrief" text="La situazione è grave, la città sta morendo di fame. Abbiamo dovuto razionare tutto il cibo che entra in città, ma ogni giorno è sempre più difficile mettere un pasto davanti alla gente. Se va avanti così ancora a lungo, o moriremo tutti di fame o il popolo si ribellerà." />
+		<string id="AQSTIssueAccept" text="Posso aiutare? Ho un po' di cibo in più." />
+		<string id="AQSTIssueSolution" text="Ti ringrazio per la tua gentilezza, ma ci servirà una quantità maggiore di cibo per rifornire la città, abbastanza da tirare avanti mentre risolviamo la causa della carestia. Se puoi fornire grano, carne e pesce, ti pagherò il triplo del prezzo medio per ciascuno. Ci serviranno almeno {FOOD_AMOUNT} unità di cibo in totale per rifornire la città." />
+		<string id="AQSTIssueSolutionAccept" text="Partirò a cercare cibo per la città." />
+		<string id="AQSTRumor" text="Ho così tanta fame... oh, scusa, ti ho urtato? È così dura ultimamente... Non mangio da così tanto tempo... Se solo qualcuno potesse aiutare {QUEST_GIVER.NAME} a portare più cibo in città..." />
+		<string id="AQSTQuestAcceptLog" text="{QUEST_GIVER.LINK}, {?QUEST_GIVER.GENDER}una mercante{?}un mercante{\?} della città di {QUEST_SETTLEMENT}, ti ha chiesto di consegnare {FOOD_AMOUNT} unità di cibo alla città per aiutarla a superare l'attuale crisi alimentare. Il cibo può essere grano, carne o pesce.{newline}{newline}Alla consegna riceverai il triplo del prezzo medio di ogni merce." />
+		<string id="AQSTHasFoodLog" text="Ora hai abbastanza cibo per completare la missione. Torna a {QUEST_SETTLEMENT} per consegnarlo." />
+		<string id="AQSTHaveFoodLog" text="Hai abbastanza cibo per completare la missione. Torna a {QUEST_SETTLEMENT} per consegnarlo." />
+		<string id="AQSTTimeoutLog" text="Non hai consegnato in tempo {FOOD_AMOUNT} unità di cibo a {QUEST_SETTLEMENT}. La gente continua a soffrire la fame e {QUEST_GIVER.LINK} è {?QUEST_GIVER.GENDER}delusa{?}deluso{\?}." />
+		<string id="AQSTSuccessLog" text="Hai consegnato {FOOD_AMOUNT} unità di cibo a {QUEST_SETTLEMENT}. La gente festeggia l'arrivo del cibo. Hai salvato il popolo dalla fame." />
+		<string id="AQSTThankYouDialog" text="Grazie, {?PLAYER.GENDER}mia signora{?}signore{\?}! Questo cibo aiuterà tutti noi." />
+		<string id="AQSTWaitingDialog" text="Attendiamo le provviste, {?PLAYER.GENDER}mia signora{?}signore{\?}." />
+		<string id="AQSTDiscussDialog" text="Hai portato {FOOD_AMOUNT} unità di cibo?" />
+		<string id="AQSTHandOverDialog" text="Sì. Eccolo." />
+		<string id="AQSTNotYetDialog" text="Ci sto lavorando." />
+		<string id="AQSTNotEnoughFood" text="Non hai abbastanza cibo." />
+		<string id="AQSTQuestObjective" text="Raccogli grano/pesce/carne." />
+		<string id="AQSTGaveFoodMeat" text="Hai consegnato {FOOD_AMOUNT} unità di carne. In cambio hai ricevuto {GOLD_AMOUNT}{GOLD_ICON}." />
+		<string id="AQSTGaveFoodFish" text="Hai consegnato {FOOD_AMOUNT} unità di pesce. In cambio hai ricevuto {GOLD_AMOUNT}{GOLD_ICON}." />
+		<string id="AQSTGaveFoodGrain" text="Hai consegnato {FOOD_AMOUNT} unità di grano. In cambio hai ricevuto {GOLD_AMOUNT}{GOLD_ICON}." />
+		<!-- Long Distance Caravan -->
+		<string id="AQ_Y9tybDT" text="Carovana a lunga distanza per {DESTINATION}" />
+		<string id="AQ_XX5gNZk" text="{QUEST_GIVER.NAME}, {?QUEST_GIVER.GENDER}una mercante{?}un mercante{\?} di {ORIGIN}, sta inviando una carovana carica di merci verso la lontana città di {DESTINATION} e ha bisogno di una scorta forte per tutto il viaggio." />
+		<string id="AQ_wVcaPYi" text="I mercati qui intorno sono pieni di merci che a {DESTINATION} valgono una fortuna. Sto mettendo quasi tutti i miei risparmi in un'unica grande carovana, ma la strada è lunga, e una carovana così ricca attira ogni bandito lungo il cammino." />
+		<string id="AQ_XZWCGX2" text="Una strada lunga richiede una scorta forte. Cosa proponi?" />
+		<string id="AQ_vhXhJyN" text="Accompagna la mia carovana fino a {DESTINATION}. Si fermerà a riposare nelle città lungo la strada. Tienila d'occhio e tienila in vita. Quando le merci saranno vendute, ti darò metà del guadagno. Porta almeno {TROOP_COUNT} uomini, la strada è pericolosa." />
+		<string id="AQ_ExQRvbj" text="I miei uomini sono pronti. Caricate i carri." />
+		<string id="AQ_pEEJxX2" text="Dicono che {QUEST_GIVER.NAME} voglia mandare un'intera fortuna in merci a {DESTINATION}. Follia o colpo di genio, se qualcuno riesce a tenere lontani i banditi." />
+		<string id="AQ_pHy3hjk" text="{QUEST_GIVER.LINK}, {?QUEST_GIVER.GENDER}una mercante{?}un mercante{\?} di {ORIGIN}, ha caricato una carovana con merci del valore di {CARGO_VALUE}{GOLD_ICON} per la lontana città di {DESTINATION}. Hai accettato di scortarla fino in fondo. Quando le merci saranno vendute, {?QUEST_GIVER.GENDER}lei{?}lui{\?} ti darà metà del guadagno." />
+		<string id="AQ_2aFLWP3" text="La carovana di {QUEST_GIVER.LINK} ha raggiunto {DESTINATION} e ha venduto le merci per {EARNED}{GOLD_ICON}. Il viaggio ha fruttato un guadagno di {PROFIT}{GOLD_ICON} e la tua parte è di {SHARE}{GOLD_ICON}." />
+		<string id="AQ_7DkphCy" text="{OLD_DESTINATION} non è più raggiungibile in sicurezza. La carovana si dirige invece verso {DESTINATION}." />
+		<string id="AQ_dgTZCFa" text="Non c'è più nessuna città dove la carovana di {QUEST_GIVER.LINK} possa vendere le merci in sicurezza. {?QUEST_GIVER.GENDER}Lei{?}Lui{\?} ha richiamato la carovana e annullato il vostro accordo." />
+		<!-- Fund the Walls -->
+		<string id="AQ_h9vC8AC" text="Finanziare le mura di {SETTLEMENT}" />
+		<string id="AQ_IVFYrru" text="{QUEST_GIVER.NAME} vuole che i lavori di costruzione a {SETTLEMENT} procedano più in fretta, ma il tesoro è a corto di monete." />
+		<string id="AQ_0Mffnlm" text="I costruttori di {SETTLEMENT} lavorano troppo lentamente. Ogni denaro del mio tesoro va ai miei uomini sul campo, e i muratori non lavorano per delle promesse." />
+		<string id="AQ_2LPPl97" text="Forse posso aiutarti. Di cosa hai bisogno?" />
+		<string id="AQ_B4pZqEB" text="Porta {AMOUNT}{GOLD_ICON} a {SETTLEMENT} e consegnali al mio intendente. Con quel denaro i lavori andranno molto più veloci. Non dimenticherò tanta generosità." />
+		<string id="AQ_Z8hQlbU" text="Porterò {AMOUNT}{GOLD_ICON} a {SETTLEMENT}." />
+		<string id="AQ_XulpSCr" text="Grazie. Il mio intendente a {SETTLEMENT} ti aspetterà." />
+		<string id="AQ_wez8WeZ" text="Il denaro è già arrivato a {SETTLEMENT}?" />
+		<string id="AQ_rmmM5jw" text="Non ancora. Sono in cammino." />
+		<string id="AQ_1t9xD52" text="{QUEST_GIVER.LINK}, {?QUEST_GIVER.GENDER}signora{?}signore{\?} di {SETTLEMENT}, ti ha chiesto di finanziare i lavori di costruzione. Vai a {SETTLEMENT} e consegna {AMOUNT}{GOLD_ICON} all'intendente." />
+		<string id="AQ_gwZpb5w" text="Consegna {AMOUNT}{GOLD_ICON} per i lavori di costruzione" />
+		<string id="AQ_sJC2SY2" text="Hai consegnato {AMOUNT}{GOLD_ICON} all'intendente di {SETTLEMENT}. I lavori di costruzione andranno più veloci." />
+		<string id="AQ_XUmYvlU" text="Non hai portato il denaro a {SETTLEMENT} in tempo. {QUEST_GIVER.LINK} è {?QUEST_GIVER.GENDER}delusa{?}deluso{\?}." />
+		<!-- Donate Elite Rangers -->
+		<string id="AQ_Lk2rP9d" text="Tiratori scelti per {SETTLEMENT}" />
+		<string id="AQ_Wf6bT1x" text="{QUEST_GIVER.NAME} vuole {COUNT} {TROOP} a guardia delle mura di {SETTLEMENT}." />
+		<string id="AQ_Zm8cY4h" text="Le mura di {SETTLEMENT} valgono quanto gli archi che le difendono. La mia guarnigione ha bisogno di veri tiratori, non di figli di contadini con archi da caccia, e addestrare uomini simili richiede anni che non ho." />
+		<string id="AQ_Pj3vN6s" text="Che tipo di uomini ti servono?" />
+		<string id="AQ_Gx5tK8m" text="Porta {COUNT} {TROOP} a {SETTLEMENT} e lasciali alla guarnigione. Ti pagherò {REWARD}{GOLD_ICON} per loro, più di quanto ti sia costato addestrarli." />
+		<string id="AQ_Rb1yQ7w" text="Porterò {COUNT} {TROOP} a {SETTLEMENT}." />
+		<string id="AQ_Uf2mB8q" text="Bene. Il comandante della guarnigione di {SETTLEMENT} li accoglierà." />
+		<string id="AQ_Ia7sD5r" text="Hai portato i {TROOP} a {SETTLEMENT}?" />
+		<string id="AQ_Oq3nF9k" text="Non ancora. Uomini così non si trovano in ogni villaggio." />
+		<string id="AQ_Cs9dL2f" text="{QUEST_GIVER.LINK}, {?QUEST_GIVER.GENDER}signora{?}signore{\?} di {SETTLEMENT}, ti ha chiesto di portare {COUNT} {TROOP} alla guarnigione. Alla consegna ti pagherà {REWARD}{GOLD_ICON}." />
+		<string id="AQ_Hv3mR8t" text="Consegna {COUNT} {TROOP} alla guarnigione" />
+		<string id="AQ_Ye4hV7n" text="Hai lasciato {COUNT} {TROOP} alla guarnigione di {SETTLEMENT}." />
+		<string id="AQ_Kw6pX3j" text="Non hai portato le truppe a {SETTLEMENT} in tempo. {QUEST_GIVER.LINK} è {?QUEST_GIVER.GENDER}delusa{?}deluso{\?}." />
+		<string id="AQ_Nq7wE2c" text="Ti servono {COUNT} {TROOP} in salute nel tuo gruppo." />
+	</strings>
+</base>

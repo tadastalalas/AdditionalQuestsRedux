@@ -1,0 +1,25 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35913.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdditionalQuestsRedux", "AdditionalQuestsRedux.csproj", "{11789C38-6818-4ACA-B768-3632DF7E2036}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11789C38-6818-4ACA-B768-3632DF7E2036}.Debug|x64.ActiveCfg = Debug|x64
+		{11789C38-6818-4ACA-B768-3632DF7E2036}.Debug|x64.Build.0 = Debug|x64
+		{11789C38-6818-4ACA-B768-3632DF7E2036}.Release|x64.ActiveCfg = Release|x64
+		{11789C38-6818-4ACA-B768-3632DF7E2036}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B745EFEA-5322-4CA3-9D12-B8B47229FAA6}
+	EndGlobalSection
+EndGlobal

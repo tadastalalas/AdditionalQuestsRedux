@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+	<tags>
+		<tag language="日本語" />
+	</tags>
+	<strings>
+		<!-- MCM settings -->
+		<string id="AQ_Rw7pL2x" text="クエスト" />
+		<string id="AQ_b8NfQ4m" text="盗賊軍" />
+		<string id="AQ_Hq5vD1s" text="民兵の槍" />
+		<string id="AQ_y2GcX7k" text="飢える町" />
+		<string id="AQ_ShuaUUm" text="長距離キャラバン" />
+		<string id="AQ_7wmctzL" text="城壁への出資" />
+		<string id="AQ_dR9kq2V" text="精鋭射手の寄贈" />
+		<string id="AQ_tWD2HrQ" text="技術設定" />
+		<string id="AQ_Pm4tZ8w" text="クエストを有効化" />
+		<string id="AQ_k3Tz9Qe" text="追加クエスト Redux" />
+		<string id="AQ_e9JrB3n" text="村の有力者が「盗賊軍」クエストを依頼できるようにします。すでに依頼済み・受注済みのクエストには影響しません。[デフォルト：有効]" />
+		<string id="AQ_V6hW1yd" text="最低兵数の条件を撤廃" />
+		<string id="AQ_s3KxM5q" text="「盗賊軍」クエストを開始するのに必要な最低50人の兵の条件を撤廃します。[デフォルト：無効]" />
+		<string id="AQ_C7uN2fa" text="盗賊軍の規模" />
+		<string id="AQ_j4QbT9r" text="盗賊軍の部隊規模を変更します。変更後に出現する盗賊軍に適用されます。[デフォルト：100%]" />
+		<string id="AQ_Lz8eY3p" text="村の有力者が「民兵の槍」クエストを依頼できるようにします。すでに依頼済み・受注済みのクエストには影響しません。[デフォルト：有効]" />
+		<string id="AQ_f1XdR6v" text="町の商人が「飢える町」クエストを依頼できるようにします。すでに依頼済み・受注済みのクエストには影響しません。[デフォルト：有効]" />
+		<string id="AQ_kdH4PaP" text="町の商人が「長距離キャラバン」クエストを依頼できるようにします。すでに依頼済み・受注済みのクエストには影響しません。[デフォルト：有効]" />
+		<string id="AQ_Rp85ntf" text="領主が自分の町や城のために「城壁への出資」クエストを依頼できるようにします。すでに依頼済み・受注済みのクエストには影響しません。[デフォルト：有効]" />
+		<string id="AQ_Tr4nGrs" text="領主が自分の町や城のために「精鋭射手の寄贈」クエストを依頼できるようにします。すでに依頼済み・受注済みのクエストには影響しません。[デフォルト：有効]" />
+		<string id="AQ_N5gRw2c" text="デバッグ用ログ" />
+		<string id="AQ_u8LmK4d" text="デバッグ用ログ（英語のみ）。[デフォルト: 無効]" />
+		<string id="AQ_Xk4mT9b" text="AI領主がクエスト報酬を得る" />
+		<string id="AQ_q7RzW2n" text="AI領主がこれらのクエストを解決すると、その領主はプレイヤーが得るはずのデナル、名声、関係値を得て、村や街も同じ恩恵を受けます。[デフォルト：有効]" />
+		<string id="AQ_Vd3nH8s" text="AI領主がバニラクエストの報酬を得る" />
+		<string id="AQ_g6PwK1z" text="AI領主がバニラのクエストを解決すると、その領主はクエストのデナル報酬、少しの名声、依頼者との関係値の上昇を得て、依頼者は権力を得ます。[デフォルト：有効]" />
+		<!-- Shared by several quests -->
+		<string id="AQGenericCancelWarLog" text="あなたのクランは{ISSUE_GIVER.LINK}の主君と戦争状態になりました。{ISSUE_GIVER.LINK}との取り決めは取り消されました。" />
+		<string id="AQGenericCancelRaidLog" text="{SETTLEMENT_NAME}は他の誰かに略奪されました。{ISSUE_GIVER.LINK}との取り決めは取り消されました。" />
+		<!-- Bandit Army -->
+		<string id="AQBATitle" text="盗賊軍が{ISSUE_SETTLEMENT}に迫っている！" />
+		<string id="AQBADescription" text="盗賊軍が略奪のために{ISSUE_SETTLEMENT}へ向かっています。{ISSUE_SETTLEMENT}の人々は身を守るための助けを必要としています。" />
+		<string id="AQBAIssueBrief" text="恐ろしい知らせが届きました。斥候によると、自称盗賊の「王」が率いるならず者の軍勢が、今まさにこの村へ向かっており、私たちの持ち物をすべて奪うつもりだそうです。貴族の方々に助けを求める使いを出しましたが、到着する頃には手遅れかもしれません。" />
+		<string id="AQBAIssueAccept" text="それは穏やかではないな。どうやって身を守るつもりだ？" />
+		<string id="AQBAIssueSolution" text="村の民兵は家を守るために戦いますが、人手は多いほど助かります。敵の大半はならず者、楽して稼ぎたいだけの略奪者ですが、腕の立つ盗賊も何人か混じっているでしょう。村を守るのを手伝っていただけますか？" />
+		<string id="AQBAIssueSolutionAccept" text="ああ、村を守るのを手伝おう。" />
+		<string id="AQBARumor" text="盗賊の軍勢が今こっちへ向かってるって聞いたんだ！逃げるか、隠れるか…とにかくここにいちゃだめだ！お願いだ、助けてくれ！" />
+		<string id="AQBAQuestAcceptLog" text="{QUEST_SETTLEMENT}村が、近くの隠れ家から来る盗賊軍に略奪されようとしている！{QUEST_GIVER.LINK}は、盗賊が村を荒らすのを阻止するようあなたに頼んだ。{newline}{newline}盗賊が{QUEST_SETTLEMENT}に到達するのを阻止せよ。" />
+		<string id="AQBABanditRaidingLog" text="盗賊軍が{QUEST_SETTLEMENT}を略奪している！村人を守れ！" />
+		<string id="AQBASuccessLog" text="{QUEST_SETTLEMENT}を略奪しようとしていた盗賊軍を打ち破った。村人たちはとても感謝している。村を治める勢力は、村を守った報奨金をあなたに与えた。" />
+		<string id="AQBAFailureLog" text="盗賊軍を止められなかった。盗賊は{QUEST_SETTLEMENT}を荒らして去っていった。" />
+		<string id="AQBATimeoutLog" text="盗賊軍を倒すのに時間がかかりすぎた。幸い、{QUEST_SETTLEMENT}を治める貴族が間に合った。取り決めは取り消された。" />
+		<string id="AQ_T07dYvH" text="{QUEST_SETTLEMENT}に向かっていた盗賊軍は他の誰かに壊滅させられた。{QUEST_GIVER.LINK}との取り決めは取り消された。" />
+		<string id="AQBAOfferDialog" text="ありがとうございます。盗賊どもはすぐ近くの隠れ家からやって来ます。斥候に場所を案内させましょう。ご武運をお祈りしています。" />
+		<string id="AQBADiscussDialogStart" text="もうすぐ奴らが来るはずです。間に合うといいのですが。" />
+		<string id="AQBADiscussDialogTalk" text="心配するな、奴らの「軍」など叩き潰してやる。" />
+		<string id="AQBADiscussDialogFinish" text="よかった、よかった。重ねて感謝します。" />
+		<string id="AQBABanditConfront" text="てめえ、何者だ？こっちは軍隊様だぞ、これから村へ「税」を取り立てに行くところだ。身のためを思うなら、邪魔するんじゃねえ！" />
+		<string id="AQBABanditConfrontResponse" text="この辺りで略奪などさせん、お前たちを止めに来たのだ！" />
+		<string id="AQBADirection" text="盗賊の方角" />
+		<string id="AQBABanditHideoutMarked" text="{QUEST_GIVER.NAME}が盗賊の隠れ家に印をつけた。盗賊軍はそこから村へ向かう。" />
+		<string id="AQBABanditArmyName" text="{BANDIT_CULTURE}の軍勢" />
+		<!-- Militia Spears -->
+		<string id="AQMSTitle" text="{ISSUE_SETTLEMENT}の民兵に槍が必要" />
+		<string id="AQMSDescription" text="{ISSUE_SETTLEMENT}の村長が民兵用の槍を必要としている。" />
+		<string id="AQMSIssueBrief" text="今、村の民兵を組織しているのですが、訓練や戦いに使う武器が足りません。特に、武器庫には槍がほとんどないのです。" />
+		<string id="AQMSIssueAccept" text="何か手伝えることは？" />
+		<string id="AQMSIssueSolution" text="村人を民兵に鍛え上げるのは私がやりますが、戦うための槍を探してくれる人が必要です。周辺の町で買えますし、鍛冶の腕があればご自分で作ることもできるでしょう。全部で{SPEARS_AMOUNT}本の槍が必要です。槍の代金として{REWARD_AMOUNT}{GOLD_ICON}をお支払いします。" />
+		<string id="AQMSIssueSolutionAccept" text="必要な槍を見つけてこよう。" />
+		<string id="AQMSRumor" text="村の若い連中はみんな新しくできた民兵に加わったよ。でも{QUEST_GIVER.NAME}のところには半分の男の分も槍がないらしくて、木の棒で訓練してるんだとさ。本当の戦いでも同じ棒を使う羽目にならなきゃいいがね！" />
+		<string id="AQMSQuestAcceptLog" text="{QUEST_SETTLEMENT}の{?QUEST_GIVER.GENDER}女村長{?}村長{\?}である{QUEST_GIVER.LINK}は、村の民兵のために{SPEARS_AMOUNT}本の槍を届けてほしいとあなたに頼んだ。これにより村で戦える民兵の数が増えるだろう。{newline}{newline}あなたはできるだけ早く{SPEARS_AMOUNT}本の槍を届けることに同意した。槍の代金として{REWARD_AMOUNT}{GOLD_ICON}が支払われる。{newline}{newline}槍は片手用の長柄武器でなければならない。" />
+		<string id="AQMSHasSpearsLog" text="クエストを完了するのに十分な槍が揃った。{QUEST_SETTLEMENT}に戻って引き渡そう。" />
+		<string id="AQMSHaveSpearsLog" text="クエストを完了するのに十分な槍を持っている。{QUEST_SETTLEMENT}に戻って引き渡そう。" />
+		<string id="AQMSTimeoutLog" text="村人に{SPEARS_AMOUNT}本の槍を届けられなかった。彼らは民兵をきちんと訓練できないだろう。村長は落胆している。" />
+		<string id="AQMSSuccessLog" text="村人に{SPEARS_AMOUNT}本の槍を届けた。民兵は訓練と村の防衛の準備が整った。村長と村人たちは感謝している。" />
+		<string id="AQMSThankYouDialog" text="ありがとうございます、{?PLAYER.GENDER}奥方様{?}旦那様{\?}！この槍は大切に使わせていただきます。" />
+		<string id="AQMSWaitingDialog" text="槍をお待ちしております、{?PLAYER.GENDER}奥方様{?}旦那様{\?}。" />
+		<string id="AQMSDiscussDialog" text="{SPEARS_AMOUNT}本の槍は持ってきていただけましたか？" />
+		<string id="AQMSHandOverDialog" text="ああ。これだ。" />
+		<string id="AQMSNotYetDialog" text="今取りかかっている。" />
+		<string id="AQMSNotEnoughSpears" text="槍が足りない。" />
+		<string id="AQMSQuestObjective" text="片手用の長柄武器を集める" />
+		<!-- Starving Town -->
+		<string id="AQSTitle" text="{ISSUE_SETTLEMENT}の食料危機" />
+		<string id="AQSTDescription" text="{SETTLEMENT}の町が飢えており、{MERCHANT_NAME}は町の食料備蓄を補充する助けを必要としている。" />
+		<string id="AQSTIssueBrief" text="食料事情はひどいものです、町は飢えています。町に入ってくる食料はすべて配給制にしましたが、人々に食事を出すのは日に日に難しくなっています。このままでは、皆飢え死にするか、民が暴動を起こすかのどちらかでしょう。" />
+		<string id="AQSTIssueAccept" text="手伝えるか？少しなら食料の余裕がある。" />
+		<string id="AQSTIssueSolution" text="お心遣いには感謝しますが、町に補充するにはもっと多くの食料が必要です。食料不足の原因を解決するまで持ちこたえられるだけの量が。穀物、肉、魚を用意していただければ、それぞれ平均価格の三倍をお支払いします。町を支えるには、合計で少なくとも{FOOD_AMOUNT}単位の食料が必要です。" />
+		<string id="AQSTIssueSolutionAccept" text="町のために食料を探しに行こう。" />
+		<string id="AQSTRumor" text="お腹が空いた…あ、ごめんなさい、ぶつかっちゃいました？最近本当に大変で…もうずっと何も食べていないんです…誰かが{QUEST_GIVER.NAME}を手伝って、町にもっと食料を運んでくれたら…" />
+		<string id="AQSTQuestAcceptLog" text="{QUEST_SETTLEMENT}の町の商人である{QUEST_GIVER.LINK}は、現在の食料危機を乗り切るため、町に{FOOD_AMOUNT}単位の食料を届けてほしいとあなたに頼んだ。食料は穀物、肉、魚のいずれでもよい。{newline}{newline}納品時に、各品の平均価格の三倍が支払われる。" />
+		<string id="AQSTHasFoodLog" text="クエストを完了するのに十分な食料が揃った。{QUEST_SETTLEMENT}に戻って引き渡そう。" />
+		<string id="AQSTHaveFoodLog" text="クエストを完了するのに十分な食料を持っている。{QUEST_SETTLEMENT}に戻って引き渡そう。" />
+		<string id="AQSTTimeoutLog" text="{QUEST_SETTLEMENT}に{FOOD_AMOUNT}単位の食料を届けられなかった。人々は飢え続け、{QUEST_GIVER.LINK}は落胆している。" />
+		<string id="AQSTSuccessLog" text="{QUEST_SETTLEMENT}に{FOOD_AMOUNT}単位の食料を届けた。人々は食料の到着に歓喜している。あなたは人々を飢餓から救った。" />
+		<string id="AQSTThankYouDialog" text="ありがとうございます、{?PLAYER.GENDER}奥方様{?}旦那様{\?}！この食料で皆が助かります。" />
+		<string id="AQSTWaitingDialog" text="食料をお待ちしております、{?PLAYER.GENDER}奥方様{?}旦那様{\?}。" />
+		<string id="AQSTDiscussDialog" text="{FOOD_AMOUNT}単位の食料は持ってきていただけましたか？" />
+		<string id="AQSTHandOverDialog" text="ああ。これだ。" />
+		<string id="AQSTNotYetDialog" text="今取りかかっている。" />
+		<string id="AQSTNotEnoughFood" text="食料が足りない。" />
+		<string id="AQSTQuestObjective" text="穀物/魚/肉を集める。" />
+		<string id="AQSTGaveFoodMeat" text="肉を{FOOD_AMOUNT}単位渡した。見返りに{GOLD_AMOUNT}{GOLD_ICON}を受け取った。" />
+		<string id="AQSTGaveFoodFish" text="魚を{FOOD_AMOUNT}単位渡した。見返りに{GOLD_AMOUNT}{GOLD_ICON}を受け取った。" />
+		<string id="AQSTGaveFoodGrain" text="穀物を{FOOD_AMOUNT}単位渡した。見返りに{GOLD_AMOUNT}{GOLD_ICON}を受け取った。" />
+		<!-- Long Distance Caravan -->
+		<string id="AQ_Y9tybDT" text="{DESTINATION}への長距離キャラバン" />
+		<string id="AQ_XX5gNZk" text="{ORIGIN}の商人{QUEST_GIVER.NAME}は、荷を満載したキャラバンを遠い町{DESTINATION}へ送ろうとしており、道中ずっと守る強力な護衛を必要としている。" />
+		<string id="AQ_wVcaPYi" text="このあたりの市場には、{DESTINATION}で大金になる品があふれています。蓄えのほとんどを一つの大きなキャラバンにつぎ込むつもりですが、道は長く、これほど豊かなキャラバンは道中の盗賊を残らず引き寄せてしまうでしょう。" />
+		<string id="AQ_XZWCGX2" text="長い道のりには強力な護衛が必要だ。何か考えはあるか？" />
+		<string id="AQ_vhXhJyN" text="私のキャラバンと一緒に{DESTINATION}まで行ってください。道中の町で休憩を取ります。キャラバンから目を離さず、無事に守り抜いてください。品物が売れたら、利益の半分をお渡しします。危険な道のりですから、少なくとも{TROOP_COUNT}人は連れてきてください。" />
+		<string id="AQ_ExQRvbj" text="部下の準備はできている。荷を積み込め。" />
+		<string id="AQ_pEEJxX2" text="{QUEST_GIVER.NAME}は一財産ほどの品物を{DESTINATION}へ送るつもりらしい。盗賊を追い払える者がいれば天才、いなければただの狂人だな。" />
+		<string id="AQ_pHy3hjk" text="{ORIGIN}の商人{QUEST_GIVER.LINK}は、{CARGO_VALUE}{GOLD_ICON}相当の品物をキャラバンに積み、遠い町{DESTINATION}へ送り出した。あなたは最後まで護衛することに同意した。品物が売れたら、利益の半分が支払われる。" />
+		<string id="AQ_2aFLWP3" text="{QUEST_GIVER.LINK}のキャラバンは{DESTINATION}に到着し、品物を{EARNED}{GOLD_ICON}で売った。利益は{PROFIT}{GOLD_ICON}で、あなたの取り分は{SHARE}{GOLD_ICON}だ。" />
+		<string id="AQ_7DkphCy" text="{OLD_DESTINATION}へは安全にたどり着けなくなった。キャラバンは代わりに{DESTINATION}へ向かう。" />
+		<string id="AQ_dgTZCFa" text="{QUEST_GIVER.LINK}のキャラバンが安全に品物を売れる町はもう残っていない。キャラバンは呼び戻され、あなたとの取り決めは取り消された。" />
+		<!-- Fund the Walls -->
+		<string id="AQ_h9vC8AC" text="{SETTLEMENT}の城壁への出資" />
+		<string id="AQ_IVFYrru" text="{QUEST_GIVER.NAME}は{SETTLEMENT}の建設工事を早めたいが、金庫の資金が足りない。" />
+		<string id="AQ_0Mffnlm" text="{SETTLEMENT}の職人たちの仕事が遅すぎる。金庫のデナルはすべて戦地の兵に回っているし、石工は約束だけでは働かんのだ。" />
+		<string id="AQ_2LPPl97" text="力になれるかもしれない。何が必要だ？" />
+		<string id="AQ_B4pZqEB" text="{AMOUNT}{GOLD_ICON}を{SETTLEMENT}へ運び、向こうにいる私の家令に渡してくれ。その金があれば工事はずっと早く進む。この寛大さは忘れんぞ。" />
+		<string id="AQ_Z8hQlbU" text="{AMOUNT}{GOLD_ICON}を{SETTLEMENT}へ届けよう。" />
+		<string id="AQ_XulpSCr" text="感謝する。{SETTLEMENT}の家令が待っているはずだ。" />
+		<string id="AQ_wez8WeZ" text="金はもう{SETTLEMENT}に届いたか？" />
+		<string id="AQ_rmmM5jw" text="まだだ。今向かっている。" />
+		<string id="AQ_1t9xD52" text="{SETTLEMENT}の領主である{QUEST_GIVER.LINK}から、建設工事への出資を頼まれた。{SETTLEMENT}へ行き、家令に{AMOUNT}{GOLD_ICON}を渡そう。" />
+		<string id="AQ_gwZpb5w" text="建設工事のために{AMOUNT}{GOLD_ICON}を渡す" />
+		<string id="AQ_sJC2SY2" text="{SETTLEMENT}の家令に{AMOUNT}{GOLD_ICON}を渡した。建設工事はより早く進むだろう。" />
+		<string id="AQ_XUmYvlU" text="期限内に{SETTLEMENT}へ金を届けられなかった。{QUEST_GIVER.LINK}は失望している。" />
+		<!-- Donate Elite Rangers -->
+		<string id="AQ_Lk2rP9d" text="{SETTLEMENT}に精鋭射手を" />
+		<string id="AQ_Wf6bT1x" text="{QUEST_GIVER.NAME}は{SETTLEMENT}の城壁を守るため、{TROOP}を{COUNT}人求めている。" />
+		<string id="AQ_Zm8cY4h" text="{SETTLEMENT}の城壁の強さは、その後ろに立つ弓次第だ。我が守備隊に必要なのは本物の射手であって、狩猟弓を持った農家の息子ではない。そのような兵を鍛えるには何年もかかるが、私にはその時間がない。" />
+		<string id="AQ_Pj3vN6s" text="どんな兵が必要なんだ？" />
+		<string id="AQ_Gx5tK8m" text="{TROOP}を{COUNT}人{SETTLEMENT}へ連れて行き、守備隊に預けてくれ。報酬として{REWARD}{GOLD_ICON}を払おう。彼らの訓練にかかった費用以上だ。" />
+		<string id="AQ_Rb1yQ7w" text="{TROOP}を{COUNT}人{SETTLEMENT}へ連れて行こう。" />
+		<string id="AQ_Uf2mB8q" text="よし。{SETTLEMENT}の守備隊長が彼らを受け入れる。" />
+		<string id="AQ_Ia7sD5r" text="{TROOP}を{SETTLEMENT}へ連れて行ったか？" />
+		<string id="AQ_Oq3nF9k" text="まだだ。あのような兵はどの村にもいるわけではない。" />
+		<string id="AQ_Cs9dL2f" text="{SETTLEMENT}の領主である{QUEST_GIVER.LINK}から、{TROOP}を{COUNT}人、守備隊へ連れて来るよう頼まれた。引き渡せば{REWARD}{GOLD_ICON}が支払われる。" />
+		<string id="AQ_Hv3mR8t" text="{TROOP}を{COUNT}人守備隊に引き渡す" />
+		<string id="AQ_Ye4hV7n" text="{TROOP}{COUNT}人を{SETTLEMENT}の守備隊に預けた。" />
+		<string id="AQ_Kw6pX3j" text="期限内に{SETTLEMENT}へ兵を連れて行けなかった。{QUEST_GIVER.LINK}は失望している。" />
+		<string id="AQ_Nq7wE2c" text="部隊に健康な{TROOP}が{COUNT}人必要だ。" />
+	</strings>
+</base>
